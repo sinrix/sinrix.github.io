@@ -1,1 +1,0 @@
-import{x as e}from"./index-DwjsC0Ct.js";var t=e();function n(e){return(0,t.jsx)(`a`,{...e})}export{n as t};

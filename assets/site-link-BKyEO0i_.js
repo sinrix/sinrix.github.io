@@ -1,0 +1,1 @@
+import{x as e}from"./index-0CPw0Q4t.js";var t=e();function n(e){return(0,t.jsx)(`a`,{...e})}export{n as t};
