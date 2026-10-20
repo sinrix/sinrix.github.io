@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "registeredAt": "2026-10-04",
+  "electionDate": "2026-11-03",
+  "target": "Certified regular-election seat winners, combined with pre-election verified holdovers. Chamber organization is a separate dated target.",
+  "primaryScope": "All partisan regular-election chambers with verified holdovers and complete district seat coverage; upper and lower chambers included.",
+  "competitiveSubset": "Pre-election maximum pure D/R/Other/Tie seat-majority probability below 0.80. Membership fixed when the forecast is frozen.",
+  "excluded": ["No regular election", "Unverified holdovers", "Officially nonpartisan ballots without a separately verified pre-election alignment target"],
+  "metrics": ["Multiclass Brier", "Log loss with declared 1e-15 floor", "D and R seat MAE", "Central 80% interval coverage", "Reliability bins", "State joint outcomes where both certified chamber targets are available"],
+  "benchmarks": ["No-change seat count and majority category", "Earlier-cycle empirical transition probabilities with Dirichlet(1,1,1,1) smoothing"],
+  "uncertainty": "Report cycle-balanced scores and election-cycle clustered uncertainty when enough cycles exist. A single 2026 cycle cannot estimate cycle-level sampling uncertainty; do not substitute independent-chamber confidence intervals.",
+  "historicalFullModel": "Reconstruct each vintage with dated district maps, candidates, holdovers, polling and source cutoffs. Fit national transfer, incumbency and shared-error components using earlier cycles only. Score later cycles once; no test-outcome selection or fitting. Existing structural and presidential residual studies do not satisfy this protocol.",
+  "outcomeRequirements": ["Election date", "Certification date", "Official source URL", "Retrieved source SHA-256", "Reconciled chamber total", "Separate organization date and source if organization is evaluated"],
+  "status": "Registered; 2026 certified outcomes are not yet available."
+}

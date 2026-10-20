@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /STATEHUB/
+Sitemap: https://sinrix.github.io/sitemap.xml

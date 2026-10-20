@@ -1,0 +1,5888 @@
+{
+  "protocolVersion": "1.0.0",
+  "protocolSha256": "e0a544a019105f7dff10227432ed949d169beac1786868be65d4952343d8aa8a",
+  "frozenAt": "2026-10-05T00:47:06.733Z",
+  "edition": "2026-10-05T00-19-03-298Z-c842cdd6124e49b6-20260913",
+  "publishedAt": "2026-10-05T00:19:03.298Z",
+  "inputVersion": "c842cdd6124e49b6",
+  "bundleSha256": "9c5874dff8a72879dd6aa21a9da60cb544b7f69c68516d52c34260cbf150e12f",
+  "lockfileSha256": "961d0dd420c0b6ebaa71c92227d6a42d31bca4a881531e70d7b8a48b457f509a",
+  "modelHashes": {
+    "lib/model/calibration/coverage.ts": "488265b3f615c4c8c7933fceabcd59aba481c970ac8299db4c4a5b1c29f1df70",
+    "lib/model/calibration/evaluate.ts": "887749d2a0d7b527551842f3c464403d5402a30fb9cc46f7f990e6648fa40bcc",
+    "lib/model/calibration/forecast-scoring.ts": "143277429e0663e111a70999b5262b4812b2e67dc4be46e555eb191e7a2a6d64",
+    "lib/model/calibration/prospective.ts": "43e080a7e92a1d2e705bb569ea1533641be0f75d860efbbc75969f46fe58b825",
+    "lib/model/calibration/retrospective.ts": "9b6f4c521806e9c5a3e57b83a578daaee4136eb7bfc53c377e4ac244f31011f0",
+    "lib/model/calibration/vintages.ts": "08f391f37a390649ef1edb281052d25b5b18b395ccfaf6feb8c9bf95eade4fdb",
+    "lib/model/calibration/year-holdout.ts": "a61189943033d4162de6c12cf42640a77956aa28fb162d1aea40c155ff52e351",
+    "lib/model/control.ts": "fe71ce069b95f5d2b63a453ad016adc20540d53560441332c8fc2c2ca4f70479",
+    "lib/model/ensemble/signals.ts": "9213212e490b22dd3222370191c5fb36d30a0dce7f8c79f214cc7b4529f9db08",
+    "lib/model/history.ts": "e323e7f95a1800d2e52b52c0dd12cf6d1480c3a7643b31ec91059ee87fdd3550",
+    "lib/model/math.ts": "235ef924f04db24e9c6f20e89e9bd3172219120487f736b96781ea1ef4248799",
+    "lib/model/parameters.ts": "78a54feff208bdf204bd9cbf3195ab31954cff3590a81c3684b43a255510d548",
+    "lib/model/quality.ts": "71ba5dfb8367256b9fbe4f2f56499d2fb0203c2e3ec73e390f221770d29cba4c",
+    "lib/model/ratings.ts": "66685e5835decfb5a3000d0063b23a7187c691663de30e278e70e12bd8127884",
+    "lib/model/scenario-parameters.ts": "639cdaf538913a0616edc0bcf1c1febb7f1dc6aa37820cc0c4f45fe2b03a9ddf",
+    "lib/model/seat-projection.ts": "f8d8554b2ec82a8e3d5bd71f32c056aaf2c68aff0ebcfd70f96e777486470303",
+    "lib/model/simulation/batches.ts": "70ad5cd421bd83e6f9a4b8b6f072841fa8a821e39bc2cee82fb44e351bcd49c4",
+    "lib/model/simulation/district.ts": "b250aabc09870e2b1b1d50ef39521b07cf13985bd7b99a425b995f6dbe24b68c",
+    "lib/model/simulation/engine.ts": "372273d248233c76c6d93f7bd6fae16cb660b8e05f687e40ed95ce28ec09a944",
+    "lib/model/simulation/scenario.ts": "c04acc2aaa20f51056d0c27016fdaf37cc85b1b71315cb6f44fe72bc82a17643",
+    "lib/model/structural.ts": "f7a531c7cf71e4294c4ffb650cb888d738f811526f7a89710efcb41fc6706296"
+  },
+  "cases": [
+    {
+      "chamberId": "AL-upper",
+      "code": "AL",
+      "total": 35,
+      "majority": 18,
+      "current": {
+        "D": 8,
+        "R": 27,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 8.82244,
+          "median": 9,
+          "p10": 8,
+          "p90": 10,
+          "mode": 9
+        },
+        "R": {
+          "expected": 26.1341,
+          "median": 26,
+          "p10": 25,
+          "p90": 27,
+          "mode": 26
+        },
+        "Other": {
+          "expected": 0.04346,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "AL-lower",
+      "code": "AL",
+      "total": 105,
+      "majority": 53,
+      "current": {
+        "D": 29,
+        "R": 76,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 29.28014,
+          "median": 29,
+          "p10": 27,
+          "p90": 32,
+          "mode": 29
+        },
+        "R": {
+          "expected": 75.71134,
+          "median": 76,
+          "p10": 73,
+          "p90": 78,
+          "mode": 76
+        },
+        "Other": {
+          "expected": 0.00852,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "AK-upper",
+      "code": "AK",
+      "total": 20,
+      "majority": 11,
+      "current": {
+        "D": 9,
+        "R": 11,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 5,
+        "R": 5,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.00002,
+        "R": 0.99454,
+        "Other": 0.00064,
+        "Tie": 0.0048
+      },
+      "seats": {
+        "D": {
+          "expected": 8.64964,
+          "median": 9,
+          "p10": 8,
+          "p90": 9,
+          "mode": 9
+        },
+        "R": {
+          "expected": 11.17742,
+          "median": 11,
+          "p10": 11,
+          "p90": 12,
+          "mode": 11
+        },
+        "Other": {
+          "expected": 0.17294,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "AK-lower",
+      "code": "AK",
+      "total": 40,
+      "majority": 21,
+      "current": {
+        "D": 14,
+        "R": 21,
+        "Other": 5,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0,
+        "R": 0.45922,
+        "Other": 0.54078,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 15.0073,
+          "median": 15,
+          "p10": 13,
+          "p90": 17,
+          "mode": 15
+        },
+        "R": {
+          "expected": 20.28258,
+          "median": 20,
+          "p10": 17,
+          "p90": 24,
+          "mode": 20
+        },
+        "Other": {
+          "expected": 4.71012,
+          "median": 5,
+          "p10": 3,
+          "p90": 7,
+          "mode": 5
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "AZ-upper",
+      "code": "AZ",
+      "total": 30,
+      "majority": 16,
+      "current": {
+        "D": 13,
+        "R": 17,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.60524,
+        "R": 0.21388,
+        "Other": 0.03064,
+        "Tie": 0.15024
+      },
+      "seats": {
+        "D": {
+          "expected": 16.14714,
+          "median": 16,
+          "p10": 13,
+          "p90": 19,
+          "mode": 16
+        },
+        "R": {
+          "expected": 13.7602,
+          "median": 14,
+          "p10": 11,
+          "p90": 16,
+          "mode": 14
+        },
+        "Other": {
+          "expected": 0.09266,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "AZ-lower",
+      "code": "AZ",
+      "total": 60,
+      "majority": 31,
+      "current": {
+        "D": 27,
+        "R": 33,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.59028,
+        "R": 0.28938,
+        "Other": 0.02358,
+        "Tie": 0.09676
+      },
+      "seats": {
+        "D": {
+          "expected": 31.2693,
+          "median": 31,
+          "p10": 27,
+          "p90": 35,
+          "mode": 32
+        },
+        "R": {
+          "expected": 28.6093,
+          "median": 29,
+          "p10": 24,
+          "p90": 33,
+          "mode": 28
+        },
+        "Other": {
+          "expected": 0.1214,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "AR-upper",
+      "code": "AR",
+      "total": 35,
+      "majority": 18,
+      "current": {
+        "D": 6,
+        "R": 29,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 3,
+        "R": 15,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": false,
+      "exclusion": "Unverified holdovers",
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 7.65746,
+          "median": 8,
+          "p10": 7,
+          "p90": 8,
+          "mode": 8
+        },
+        "R": {
+          "expected": 27.331,
+          "median": 27,
+          "p10": 27,
+          "p90": 28,
+          "mode": 27
+        },
+        "Other": {
+          "expected": 0.01154,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "AR-lower",
+      "code": "AR",
+      "total": 100,
+      "majority": 51,
+      "current": {
+        "D": 20,
+        "R": 79,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 23.65596,
+          "median": 24,
+          "p10": 20,
+          "p90": 27,
+          "mode": 24
+        },
+        "R": {
+          "expected": 76.29908,
+          "median": 76,
+          "p10": 73,
+          "p90": 80,
+          "mode": 76
+        },
+        "Other": {
+          "expected": 0.04496,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "CA-upper",
+      "code": "CA",
+      "total": 40,
+      "majority": 21,
+      "current": {
+        "D": 29,
+        "R": 10,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 16,
+        "R": 4,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 31.7365,
+          "median": 32,
+          "p10": 30,
+          "p90": 34,
+          "mode": 32
+        },
+        "R": {
+          "expected": 8.1665,
+          "median": 8,
+          "p10": 6,
+          "p90": 10,
+          "mode": 8
+        },
+        "Other": {
+          "expected": 0.097,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "CA-lower",
+      "code": "CA",
+      "total": 80,
+      "majority": 41,
+      "current": {
+        "D": 60,
+        "R": 19,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 65.15198,
+          "median": 65,
+          "p10": 61,
+          "p90": 69,
+          "mode": 66
+        },
+        "R": {
+          "expected": 14.03514,
+          "median": 14,
+          "p10": 10,
+          "p90": 18,
+          "mode": 13
+        },
+        "Other": {
+          "expected": 0.81288,
+          "median": 1,
+          "p10": 0,
+          "p90": 2,
+          "mode": 1
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "CO-upper",
+      "code": "CO",
+      "total": 35,
+      "majority": 18,
+      "current": {
+        "D": 23,
+        "R": 12,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 12,
+        "R": 6,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.9998,
+        "R": 0.00012,
+        "Other": 0.00008,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 23.28978,
+          "median": 23,
+          "p10": 22,
+          "p90": 25,
+          "mode": 24
+        },
+        "R": {
+          "expected": 11.61684,
+          "median": 12,
+          "p10": 10,
+          "p90": 13,
+          "mode": 11
+        },
+        "Other": {
+          "expected": 0.09338,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "CO-lower",
+      "code": "CO",
+      "total": 65,
+      "majority": 33,
+      "current": {
+        "D": 43,
+        "R": 22,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.99984,
+        "R": 0.00014,
+        "Other": 0.00002,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 47.36386,
+          "median": 47,
+          "p10": 43,
+          "p90": 52,
+          "mode": 48
+        },
+        "R": {
+          "expected": 17.28852,
+          "median": 17,
+          "p10": 13,
+          "p90": 22,
+          "mode": 17
+        },
+        "Other": {
+          "expected": 0.34762,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "CT-upper",
+      "code": "CT",
+      "total": 36,
+      "majority": 19,
+      "current": {
+        "D": 25,
+        "R": 11,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 31.58094,
+          "median": 32,
+          "p10": 28,
+          "p90": 35,
+          "mode": 32
+        },
+        "R": {
+          "expected": 4.41906,
+          "median": 4,
+          "p10": 1,
+          "p90": 8,
+          "mode": 4
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "CT-lower",
+      "code": "CT",
+      "total": 151,
+      "majority": 76,
+      "current": {
+        "D": 102,
+        "R": 49,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 124.65352,
+          "median": 125,
+          "p10": 115,
+          "p90": 134,
+          "mode": 126
+        },
+        "R": {
+          "expected": 26.34648,
+          "median": 26,
+          "p10": 17,
+          "p90": 36,
+          "mode": 25
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "DE-upper",
+      "code": "DE",
+      "total": 21,
+      "majority": 11,
+      "current": {
+        "D": 15,
+        "R": 6,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 7,
+        "R": 3,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 15.15742,
+          "median": 15,
+          "p10": 15,
+          "p90": 16,
+          "mode": 15
+        },
+        "R": {
+          "expected": 5.83126,
+          "median": 6,
+          "p10": 5,
+          "p90": 6,
+          "mode": 6
+        },
+        "Other": {
+          "expected": 0.01132,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "DE-lower",
+      "code": "DE",
+      "total": 41,
+      "majority": 21,
+      "current": {
+        "D": 27,
+        "R": 14,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 31.1257,
+          "median": 31,
+          "p10": 29,
+          "p90": 33,
+          "mode": 31
+        },
+        "R": {
+          "expected": 9.87334,
+          "median": 10,
+          "p10": 8,
+          "p90": 12,
+          "mode": 10
+        },
+        "Other": {
+          "expected": 0.00096,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "FL-upper",
+      "code": "FL",
+      "total": 40,
+      "majority": 21,
+      "current": {
+        "D": 12,
+        "R": 26,
+        "Other": 1,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 5,
+        "R": 13,
+        "Other": 1,
+        "vacant": 1
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.00014,
+        "R": 0.97738,
+        "Other": 0.02248,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 13.2681,
+          "median": 13,
+          "p10": 11,
+          "p90": 16,
+          "mode": 13
+        },
+        "R": {
+          "expected": 24.57638,
+          "median": 25,
+          "p10": 22,
+          "p90": 27,
+          "mode": 25
+        },
+        "Other": {
+          "expected": 1.15552,
+          "median": 1,
+          "p10": 1,
+          "p90": 2,
+          "mode": 1
+        },
+        "vacant": 1
+      }
+    },
+    {
+      "chamberId": "FL-lower",
+      "code": "FL",
+      "total": 120,
+      "majority": 61,
+      "current": {
+        "D": 34,
+        "R": 82,
+        "Other": 0,
+        "vacant": 4
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.04672,
+        "R": 0.93302,
+        "Other": 0.01266,
+        "Tie": 0.0076
+      },
+      "seats": {
+        "D": {
+          "expected": 47.27418,
+          "median": 47,
+          "p10": 38,
+          "p90": 57,
+          "mode": 47
+        },
+        "R": {
+          "expected": 72.33374,
+          "median": 73,
+          "p10": 62,
+          "p90": 82,
+          "mode": 73
+        },
+        "Other": {
+          "expected": 0.39208,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "GA-upper",
+      "code": "GA",
+      "total": 56,
+      "majority": 29,
+      "current": {
+        "D": 22,
+        "R": 33,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.0788,
+        "R": 0.84338,
+        "Other": 0,
+        "Tie": 0.07782
+      },
+      "seats": {
+        "D": {
+          "expected": 25.53434,
+          "median": 25,
+          "p10": 23,
+          "p90": 28,
+          "mode": 25
+        },
+        "R": {
+          "expected": 30.46566,
+          "median": 31,
+          "p10": 28,
+          "p90": 33,
+          "mode": 31
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "GA-lower",
+      "code": "GA",
+      "total": 180,
+      "majority": 91,
+      "current": {
+        "D": 81,
+        "R": 99,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.4568,
+        "R": 0.46562,
+        "Other": 0.00574,
+        "Tie": 0.07184
+      },
+      "seats": {
+        "D": {
+          "expected": 90.30796,
+          "median": 90,
+          "p10": 84,
+          "p90": 97,
+          "mode": 89
+        },
+        "R": {
+          "expected": 89.65298,
+          "median": 90,
+          "p10": 83,
+          "p90": 96,
+          "mode": 91
+        },
+        "Other": {
+          "expected": 0.03906,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "HI-upper",
+      "code": "HI",
+      "total": 25,
+      "majority": 13,
+      "current": {
+        "D": 22,
+        "R": 3,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 10,
+        "R": 2,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 22.56232,
+          "median": 23,
+          "p10": 22,
+          "p90": 23,
+          "mode": 23
+        },
+        "R": {
+          "expected": 2.4291,
+          "median": 2,
+          "p10": 2,
+          "p90": 3,
+          "mode": 2
+        },
+        "Other": {
+          "expected": 0.00858,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "HI-lower",
+      "code": "HI",
+      "total": 51,
+      "majority": 26,
+      "current": {
+        "D": 41,
+        "R": 10,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 44.61796,
+          "median": 45,
+          "p10": 42,
+          "p90": 47,
+          "mode": 45
+        },
+        "R": {
+          "expected": 6.34296,
+          "median": 6,
+          "p10": 4,
+          "p90": 9,
+          "mode": 6
+        },
+        "Other": {
+          "expected": 0.03908,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "ID-upper",
+      "code": "ID",
+      "total": 35,
+      "majority": 18,
+      "current": {
+        "D": 6,
+        "R": 29,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 5.65048,
+          "median": 6,
+          "p10": 4,
+          "p90": 7,
+          "mode": 6
+        },
+        "R": {
+          "expected": 29.28712,
+          "median": 29,
+          "p10": 28,
+          "p90": 31,
+          "mode": 29
+        },
+        "Other": {
+          "expected": 0.0624,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "ID-lower",
+      "code": "ID",
+      "total": 70,
+      "majority": 36,
+      "current": {
+        "D": 9,
+        "R": 61,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 11.06476,
+          "median": 11,
+          "p10": 9,
+          "p90": 14,
+          "mode": 11
+        },
+        "R": {
+          "expected": 58.85078,
+          "median": 59,
+          "p10": 56,
+          "p90": 61,
+          "mode": 59
+        },
+        "Other": {
+          "expected": 0.08446,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "IL-upper",
+      "code": "IL",
+      "total": 59,
+      "majority": 30,
+      "current": {
+        "D": 40,
+        "R": 19,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 17,
+        "R": 3,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 43.99196,
+          "median": 44,
+          "p10": 41,
+          "p90": 46,
+          "mode": 45
+        },
+        "R": {
+          "expected": 15.00804,
+          "median": 15,
+          "p10": 13,
+          "p90": 18,
+          "mode": 14
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "IL-lower",
+      "code": "IL",
+      "total": 118,
+      "majority": 60,
+      "current": {
+        "D": 78,
+        "R": 40,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 83.41798,
+          "median": 84,
+          "p10": 79,
+          "p90": 88,
+          "mode": 84
+        },
+        "R": {
+          "expected": 34.58202,
+          "median": 34,
+          "p10": 30,
+          "p90": 39,
+          "mode": 34
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "IN-upper",
+      "code": "IN",
+      "total": 50,
+      "majority": 26,
+      "current": {
+        "D": 10,
+        "R": 40,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 7,
+        "R": 18,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 12.03336,
+          "median": 12,
+          "p10": 10,
+          "p90": 14,
+          "mode": 12
+        },
+        "R": {
+          "expected": 37.91272,
+          "median": 38,
+          "p10": 36,
+          "p90": 40,
+          "mode": 38
+        },
+        "Other": {
+          "expected": 0.05392,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "IN-lower",
+      "code": "IN",
+      "total": 100,
+      "majority": 51,
+      "current": {
+        "D": 30,
+        "R": 69,
+        "Other": 1,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.00038,
+        "R": 0.99926,
+        "Other": 0.00008,
+        "Tie": 0.00028
+      },
+      "seats": {
+        "D": {
+          "expected": 33.87492,
+          "median": 34,
+          "p10": 28,
+          "p90": 40,
+          "mode": 33
+        },
+        "R": {
+          "expected": 65.79578,
+          "median": 66,
+          "p10": 60,
+          "p90": 71,
+          "mode": 66
+        },
+        "Other": {
+          "expected": 0.3293,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "IA-upper",
+      "code": "IA",
+      "total": 50,
+      "majority": 26,
+      "current": {
+        "D": 17,
+        "R": 32,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 6,
+        "R": 19,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 17.083,
+          "median": 17,
+          "p10": 15,
+          "p90": 19,
+          "mode": 17
+        },
+        "R": {
+          "expected": 32.90832,
+          "median": 33,
+          "p10": 31,
+          "p90": 35,
+          "mode": 33
+        },
+        "Other": {
+          "expected": 0.00868,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "IA-lower",
+      "code": "IA",
+      "total": 100,
+      "majority": 51,
+      "current": {
+        "D": 33,
+        "R": 67,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.02714,
+        "R": 0.95968,
+        "Other": 0.00316,
+        "Tie": 0.01002
+      },
+      "seats": {
+        "D": {
+          "expected": 39.33742,
+          "median": 39,
+          "p10": 33,
+          "p90": 46,
+          "mode": 39
+        },
+        "R": {
+          "expected": 60.40604,
+          "median": 61,
+          "p10": 53,
+          "p90": 67,
+          "mode": 61
+        },
+        "Other": {
+          "expected": 0.25654,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "KS-upper",
+      "code": "KS",
+      "total": 40,
+      "majority": 21,
+      "current": {
+        "D": 9,
+        "R": 31,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 9,
+        "R": 31,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 9,
+          "median": 9,
+          "p10": 9,
+          "p90": 9,
+          "mode": 9
+        },
+        "R": {
+          "expected": 31,
+          "median": 31,
+          "p10": 31,
+          "p90": 31,
+          "mode": 31
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "KS-lower",
+      "code": "KS",
+      "total": 125,
+      "majority": 63,
+      "current": {
+        "D": 37,
+        "R": 88,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.00218,
+        "R": 0.99752,
+        "Other": 0.0003,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 48.8996,
+          "median": 49,
+          "p10": 43,
+          "p90": 55,
+          "mode": 49
+        },
+        "R": {
+          "expected": 76.02346,
+          "median": 76,
+          "p10": 70,
+          "p90": 82,
+          "mode": 76
+        },
+        "Other": {
+          "expected": 0.07694,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "KY-upper",
+      "code": "KY",
+      "total": 38,
+      "majority": 20,
+      "current": {
+        "D": 6,
+        "R": 32,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 5,
+        "R": 14,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 7.1573,
+          "median": 7,
+          "p10": 6,
+          "p90": 8,
+          "mode": 7
+        },
+        "R": {
+          "expected": 30.67074,
+          "median": 31,
+          "p10": 29,
+          "p90": 32,
+          "mode": 31
+        },
+        "Other": {
+          "expected": 0.17196,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "KY-lower",
+      "code": "KY",
+      "total": 100,
+      "majority": 51,
+      "current": {
+        "D": 20,
+        "R": 80,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 22.20626,
+          "median": 22,
+          "p10": 19,
+          "p90": 26,
+          "mode": 22
+        },
+        "R": {
+          "expected": 77.74256,
+          "median": 78,
+          "p10": 74,
+          "p90": 81,
+          "mode": 78
+        },
+        "Other": {
+          "expected": 0.05118,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "LA-upper",
+      "code": "LA",
+      "total": 39,
+      "majority": 20,
+      "current": {
+        "D": 10,
+        "R": 28,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 10,
+        "R": 28,
+        "Other": 0,
+        "vacant": 1
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 10,
+          "median": 10,
+          "p10": 10,
+          "p90": 10,
+          "mode": 10
+        },
+        "R": {
+          "expected": 28,
+          "median": 28,
+          "p10": 28,
+          "p90": 28,
+          "mode": 28
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 1
+      }
+    },
+    {
+      "chamberId": "LA-lower",
+      "code": "LA",
+      "total": 105,
+      "majority": 53,
+      "current": {
+        "D": 32,
+        "R": 73,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 32,
+        "R": 73,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 32,
+          "median": 32,
+          "p10": 32,
+          "p90": 32,
+          "mode": 32
+        },
+        "R": {
+          "expected": 73,
+          "median": 73,
+          "p10": 73,
+          "p90": 73,
+          "mode": 73
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "ME-upper",
+      "code": "ME",
+      "total": 35,
+      "majority": 18,
+      "current": {
+        "D": 20,
+        "R": 14,
+        "Other": 1,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.96792,
+        "R": 0.0099,
+        "Other": 0.02218,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 22.65856,
+          "median": 23,
+          "p10": 19,
+          "p90": 26,
+          "mode": 23
+        },
+        "R": {
+          "expected": 11.62966,
+          "median": 12,
+          "p10": 8,
+          "p90": 15,
+          "mode": 12
+        },
+        "Other": {
+          "expected": 0.71178,
+          "median": 1,
+          "p10": 0,
+          "p90": 2,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "ME-lower",
+      "code": "ME",
+      "total": 151,
+      "majority": 76,
+      "current": {
+        "D": 75,
+        "R": 73,
+        "Other": 3,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.96458,
+        "R": 0.01976,
+        "Other": 0.01566,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 89.99514,
+          "median": 90,
+          "p10": 80,
+          "p90": 100,
+          "mode": 88
+        },
+        "R": {
+          "expected": 57.84568,
+          "median": 58,
+          "p10": 47,
+          "p90": 69,
+          "mode": 59
+        },
+        "Other": {
+          "expected": 3.15918,
+          "median": 3,
+          "p10": 1,
+          "p90": 5,
+          "mode": 3
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MD-upper",
+      "code": "MD",
+      "total": 47,
+      "majority": 24,
+      "current": {
+        "D": 34,
+        "R": 13,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 36.45062,
+          "median": 36,
+          "p10": 34,
+          "p90": 39,
+          "mode": 36
+        },
+        "R": {
+          "expected": 10.54938,
+          "median": 11,
+          "p10": 8,
+          "p90": 13,
+          "mode": 11
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MD-lower",
+      "code": "MD",
+      "total": 141,
+      "majority": 71,
+      "current": {
+        "D": 102,
+        "R": 39,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 109.96746,
+          "median": 110,
+          "p10": 105,
+          "p90": 116,
+          "mode": 108
+        },
+        "R": {
+          "expected": 31.01078,
+          "median": 31,
+          "p10": 25,
+          "p90": 36,
+          "mode": 32
+        },
+        "Other": {
+          "expected": 0.02176,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MA-upper",
+      "code": "MA",
+      "total": 40,
+      "majority": 21,
+      "current": {
+        "D": 35,
+        "R": 5,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 34.86208,
+          "median": 35,
+          "p10": 33,
+          "p90": 36,
+          "mode": 35
+        },
+        "R": {
+          "expected": 5.13792,
+          "median": 5,
+          "p10": 4,
+          "p90": 7,
+          "mode": 5
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MA-lower",
+      "code": "MA",
+      "total": 160,
+      "majority": 81,
+      "current": {
+        "D": 132,
+        "R": 25,
+        "Other": 1,
+        "vacant": 2
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 141.09514,
+          "median": 142,
+          "p10": 135,
+          "p90": 146,
+          "mode": 143
+        },
+        "R": {
+          "expected": 18.0357,
+          "median": 18,
+          "p10": 13,
+          "p90": 24,
+          "mode": 16
+        },
+        "Other": {
+          "expected": 0.86916,
+          "median": 1,
+          "p10": 0,
+          "p90": 1,
+          "mode": 1
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MI-upper",
+      "code": "MI",
+      "total": 38,
+      "majority": 20,
+      "current": {
+        "D": 20,
+        "R": 18,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.7617,
+        "R": 0.10542,
+        "Other": 0.06754,
+        "Tie": 0.06534
+      },
+      "seats": {
+        "D": {
+          "expected": 21.33856,
+          "median": 21,
+          "p10": 18,
+          "p90": 25,
+          "mode": 21
+        },
+        "R": {
+          "expected": 16.31012,
+          "median": 16,
+          "p10": 13,
+          "p90": 20,
+          "mode": 16
+        },
+        "Other": {
+          "expected": 0.35132,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MI-lower",
+      "code": "MI",
+      "total": 110,
+      "majority": 56,
+      "current": {
+        "D": 52,
+        "R": 58,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.6286,
+        "R": 0.29142,
+        "Other": 0.0409,
+        "Tie": 0.03908
+      },
+      "seats": {
+        "D": {
+          "expected": 57.71172,
+          "median": 58,
+          "p10": 50,
+          "p90": 66,
+          "mode": 57
+        },
+        "R": {
+          "expected": 51.90124,
+          "median": 52,
+          "p10": 44,
+          "p90": 60,
+          "mode": 52
+        },
+        "Other": {
+          "expected": 0.38704,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MN-upper",
+      "code": "MN",
+      "total": 67,
+      "majority": 34,
+      "current": {
+        "D": 34,
+        "R": 33,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.95056,
+        "R": 0.04746,
+        "Other": 0.00198,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 39.40744,
+          "median": 39,
+          "p10": 35,
+          "p90": 44,
+          "mode": 40
+        },
+        "R": {
+          "expected": 27.51106,
+          "median": 27,
+          "p10": 23,
+          "p90": 32,
+          "mode": 27
+        },
+        "Other": {
+          "expected": 0.0815,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MN-lower",
+      "code": "MN",
+      "total": 134,
+      "majority": 68,
+      "current": {
+        "D": 67,
+        "R": 67,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.97212,
+        "R": 0.0165,
+        "Other": 0.00438,
+        "Tie": 0.007
+      },
+      "seats": {
+        "D": {
+          "expected": 78.53528,
+          "median": 79,
+          "p10": 71,
+          "p90": 86,
+          "mode": 79
+        },
+        "R": {
+          "expected": 55.38126,
+          "median": 55,
+          "p10": 48,
+          "p90": 63,
+          "mode": 55
+        },
+        "Other": {
+          "expected": 0.08346,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MS-upper",
+      "code": "MS",
+      "total": 52,
+      "majority": 27,
+      "current": {
+        "D": 17,
+        "R": 34,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 17,
+        "R": 34,
+        "Other": 0,
+        "vacant": 1
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 17,
+          "median": 17,
+          "p10": 17,
+          "p90": 17,
+          "mode": 17
+        },
+        "R": {
+          "expected": 34,
+          "median": 34,
+          "p10": 34,
+          "p90": 34,
+          "mode": 34
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 1
+      }
+    },
+    {
+      "chamberId": "MS-lower",
+      "code": "MS",
+      "total": 122,
+      "majority": 62,
+      "current": {
+        "D": 41,
+        "R": 77,
+        "Other": 2,
+        "vacant": 2
+      },
+      "holdover": {
+        "D": 41,
+        "R": 77,
+        "Other": 2,
+        "vacant": 2
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 41,
+          "median": 41,
+          "p10": 41,
+          "p90": 41,
+          "mode": 41
+        },
+        "R": {
+          "expected": 77,
+          "median": 77,
+          "p10": 77,
+          "p90": 77,
+          "mode": 77
+        },
+        "Other": {
+          "expected": 2,
+          "median": 2,
+          "p10": 2,
+          "p90": 2,
+          "mode": 2
+        },
+        "vacant": 2
+      }
+    },
+    {
+      "chamberId": "MO-upper",
+      "code": "MO",
+      "total": 34,
+      "majority": 18,
+      "current": {
+        "D": 10,
+        "R": 23,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 7,
+        "R": 10,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 11.37878,
+          "median": 11,
+          "p10": 10,
+          "p90": 13,
+          "mode": 11
+        },
+        "R": {
+          "expected": 22.57704,
+          "median": 23,
+          "p10": 21,
+          "p90": 24,
+          "mode": 23
+        },
+        "Other": {
+          "expected": 0.04418,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MO-lower",
+      "code": "MO",
+      "total": 163,
+      "majority": 82,
+      "current": {
+        "D": 52,
+        "R": 106,
+        "Other": 0,
+        "vacant": 5
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.00016,
+        "R": 0.99984,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 60.207,
+          "median": 60,
+          "p10": 53,
+          "p90": 68,
+          "mode": 60
+        },
+        "R": {
+          "expected": 102.64702,
+          "median": 103,
+          "p10": 95,
+          "p90": 110,
+          "mode": 103
+        },
+        "Other": {
+          "expected": 0.14598,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MT-upper",
+      "code": "MT",
+      "total": 50,
+      "majority": 26,
+      "current": {
+        "D": 18,
+        "R": 32,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 9,
+        "R": 16,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 0.9999,
+        "Other": 0.00008,
+        "Tie": 0.00002
+      },
+      "seats": {
+        "D": {
+          "expected": 18.5107,
+          "median": 19,
+          "p10": 16,
+          "p90": 20,
+          "mode": 19
+        },
+        "R": {
+          "expected": 31.25238,
+          "median": 31,
+          "p10": 29,
+          "p90": 33,
+          "mode": 31
+        },
+        "Other": {
+          "expected": 0.23692,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "MT-lower",
+      "code": "MT",
+      "total": 100,
+      "majority": 51,
+      "current": {
+        "D": 42,
+        "R": 58,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.0055,
+        "R": 0.98442,
+        "Other": 0.00666,
+        "Tie": 0.00342
+      },
+      "seats": {
+        "D": {
+          "expected": 39.92956,
+          "median": 40,
+          "p10": 34,
+          "p90": 45,
+          "mode": 41
+        },
+        "R": {
+          "expected": 59.26708,
+          "median": 59,
+          "p10": 54,
+          "p90": 65,
+          "mode": 58
+        },
+        "Other": {
+          "expected": 0.80336,
+          "median": 1,
+          "p10": 0,
+          "p90": 1,
+          "mode": 1
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NE-upper",
+      "code": "NE",
+      "total": 49,
+      "majority": 25,
+      "current": {
+        "D": 15,
+        "R": 33,
+        "Other": 1,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 9,
+        "R": 16,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": false,
+      "exclusion": "Officially nonpartisan target",
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 18.35678,
+          "median": 18,
+          "p10": 17,
+          "p90": 20,
+          "mode": 18
+        },
+        "R": {
+          "expected": 30.63708,
+          "median": 31,
+          "p10": 29,
+          "p90": 32,
+          "mode": 31
+        },
+        "Other": {
+          "expected": 0.00614,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NV-upper",
+      "code": "NV",
+      "total": 21,
+      "majority": 11,
+      "current": {
+        "D": 13,
+        "R": 8,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 6,
+        "R": 4,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.96698,
+        "R": 0.03094,
+        "Other": 0.00208,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 12.65334,
+          "median": 13,
+          "p10": 11,
+          "p90": 14,
+          "mode": 13
+        },
+        "R": {
+          "expected": 8.32996,
+          "median": 8,
+          "p10": 7,
+          "p90": 10,
+          "mode": 8
+        },
+        "Other": {
+          "expected": 0.0167,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NV-lower",
+      "code": "NV",
+      "total": 42,
+      "majority": 22,
+      "current": {
+        "D": 27,
+        "R": 15,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.96382,
+        "R": 0.01586,
+        "Other": 0.0095,
+        "Tie": 0.01082
+      },
+      "seats": {
+        "D": {
+          "expected": 28.00686,
+          "median": 28,
+          "p10": 24,
+          "p90": 32,
+          "mode": 29
+        },
+        "R": {
+          "expected": 13.79544,
+          "median": 14,
+          "p10": 10,
+          "p90": 18,
+          "mode": 13
+        },
+        "Other": {
+          "expected": 0.1977,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NH-upper",
+      "code": "NH",
+      "total": 24,
+      "majority": 13,
+      "current": {
+        "D": 8,
+        "R": 16,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.77556,
+        "R": 0.13268,
+        "Other": 0,
+        "Tie": 0.09176
+      },
+      "seats": {
+        "D": {
+          "expected": 14.86558,
+          "median": 15,
+          "p10": 11,
+          "p90": 19,
+          "mode": 15
+        },
+        "R": {
+          "expected": 9.13442,
+          "median": 9,
+          "p10": 5,
+          "p90": 13,
+          "mode": 9
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NH-lower",
+      "code": "NH",
+      "total": 400,
+      "majority": 201,
+      "current": {
+        "D": 177,
+        "R": 215,
+        "Other": 1,
+        "vacant": 7
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.92848,
+        "R": 0.0595,
+        "Other": 0.01158,
+        "Tie": 0.00044
+      },
+      "seats": {
+        "D": {
+          "expected": 245.96088,
+          "median": 246,
+          "p10": 206,
+          "p90": 286,
+          "mode": 245
+        },
+        "R": {
+          "expected": 151.55692,
+          "median": 152,
+          "p10": 111,
+          "p90": 192,
+          "mode": 148
+        },
+        "Other": {
+          "expected": 2.4822,
+          "median": 2,
+          "p10": 1,
+          "p90": 4,
+          "mode": 2
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NJ-upper",
+      "code": "NJ",
+      "total": 40,
+      "majority": 21,
+      "current": {
+        "D": 25,
+        "R": 15,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 25,
+        "R": 15,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 25,
+          "median": 25,
+          "p10": 25,
+          "p90": 25,
+          "mode": 25
+        },
+        "R": {
+          "expected": 15,
+          "median": 15,
+          "p10": 15,
+          "p90": 15,
+          "mode": 15
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NJ-lower",
+      "code": "NJ",
+      "total": 80,
+      "majority": 41,
+      "current": {
+        "D": 57,
+        "R": 23,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 57,
+        "R": 23,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 57,
+          "median": 57,
+          "p10": 57,
+          "p90": 57,
+          "mode": 57
+        },
+        "R": {
+          "expected": 23,
+          "median": 23,
+          "p10": 23,
+          "p90": 23,
+          "mode": 23
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NM-upper",
+      "code": "NM",
+      "total": 42,
+      "majority": 22,
+      "current": {
+        "D": 26,
+        "R": 16,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 26,
+        "R": 16,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 26,
+          "median": 26,
+          "p10": 26,
+          "p90": 26,
+          "mode": 26
+        },
+        "R": {
+          "expected": 16,
+          "median": 16,
+          "p10": 16,
+          "p90": 16,
+          "mode": 16
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NM-lower",
+      "code": "NM",
+      "total": 70,
+      "majority": 36,
+      "current": {
+        "D": 44,
+        "R": 26,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.99986,
+        "R": 0.00004,
+        "Other": 0,
+        "Tie": 0.0001
+      },
+      "seats": {
+        "D": {
+          "expected": 46.27788,
+          "median": 46,
+          "p10": 43,
+          "p90": 49,
+          "mode": 47
+        },
+        "R": {
+          "expected": 23.56064,
+          "median": 23,
+          "p10": 21,
+          "p90": 27,
+          "mode": 23
+        },
+        "Other": {
+          "expected": 0.16148,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NY-upper",
+      "code": "NY",
+      "total": 63,
+      "majority": 32,
+      "current": {
+        "D": 41,
+        "R": 22,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.99996,
+        "R": 0.00002,
+        "Other": 0.00002,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 45.02638,
+          "median": 45,
+          "p10": 41,
+          "p90": 50,
+          "mode": 45
+        },
+        "R": {
+          "expected": 17.70818,
+          "median": 18,
+          "p10": 13,
+          "p90": 22,
+          "mode": 18
+        },
+        "Other": {
+          "expected": 0.26544,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NY-lower",
+      "code": "NY",
+      "total": 150,
+      "majority": 76,
+      "current": {
+        "D": 103,
+        "R": 47,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 105.56748,
+          "median": 105,
+          "p10": 98,
+          "p90": 113,
+          "mode": 105
+        },
+        "R": {
+          "expected": 44.18334,
+          "median": 44,
+          "p10": 37,
+          "p90": 52,
+          "mode": 44
+        },
+        "Other": {
+          "expected": 0.24918,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NC-upper",
+      "code": "NC",
+      "total": 50,
+      "majority": 26,
+      "current": {
+        "D": 20,
+        "R": 30,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.20596,
+        "R": 0.6566,
+        "Other": 0.03452,
+        "Tie": 0.10292
+      },
+      "seats": {
+        "D": {
+          "expected": 23.556,
+          "median": 23,
+          "p10": 21,
+          "p90": 27,
+          "mode": 23
+        },
+        "R": {
+          "expected": 26.29536,
+          "median": 27,
+          "p10": 23,
+          "p90": 29,
+          "mode": 27
+        },
+        "Other": {
+          "expected": 0.14864,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "NC-lower",
+      "code": "NC",
+      "total": 120,
+      "majority": 61,
+      "current": {
+        "D": 47,
+        "R": 71,
+        "Other": 2,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.4265,
+        "R": 0.48096,
+        "Other": 0.03402,
+        "Tie": 0.05852
+      },
+      "seats": {
+        "D": {
+          "expected": 59.79972,
+          "median": 60,
+          "p10": 53,
+          "p90": 67,
+          "mode": 59
+        },
+        "R": {
+          "expected": 59.94606,
+          "median": 60,
+          "p10": 53,
+          "p90": 67,
+          "mode": 61
+        },
+        "Other": {
+          "expected": 0.25422,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "ND-upper",
+      "code": "ND",
+      "total": 47,
+      "majority": 24,
+      "current": {
+        "D": 5,
+        "R": 42,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 2,
+        "R": 21,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 6.48168,
+          "median": 6,
+          "p10": 5,
+          "p90": 8,
+          "mode": 6
+        },
+        "R": {
+          "expected": 40.51832,
+          "median": 41,
+          "p10": 39,
+          "p90": 42,
+          "mode": 41
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "ND-lower",
+      "code": "ND",
+      "total": 94,
+      "majority": 48,
+      "current": {
+        "D": 11,
+        "R": 83,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 3,
+        "R": 43,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 11.26734,
+          "median": 11,
+          "p10": 8,
+          "p90": 14,
+          "mode": 10
+        },
+        "R": {
+          "expected": 82.34984,
+          "median": 83,
+          "p10": 79,
+          "p90": 85,
+          "mode": 84
+        },
+        "Other": {
+          "expected": 0.38282,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "OH-upper",
+      "code": "OH",
+      "total": 33,
+      "majority": 17,
+      "current": {
+        "D": 9,
+        "R": 24,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 3,
+        "R": 13,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 10.61876,
+          "median": 10,
+          "p10": 9,
+          "p90": 12,
+          "mode": 10
+        },
+        "R": {
+          "expected": 22.36718,
+          "median": 23,
+          "p10": 21,
+          "p90": 24,
+          "mode": 23
+        },
+        "Other": {
+          "expected": 0.01406,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "OH-lower",
+      "code": "OH",
+      "total": 99,
+      "majority": 50,
+      "current": {
+        "D": 34,
+        "R": 65,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.01468,
+        "R": 0.98298,
+        "Other": 0.00234,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 39.49136,
+          "median": 39,
+          "p10": 34,
+          "p90": 45,
+          "mode": 40
+        },
+        "R": {
+          "expected": 59.2536,
+          "median": 59,
+          "p10": 54,
+          "p90": 65,
+          "mode": 59
+        },
+        "Other": {
+          "expected": 0.25504,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "OK-upper",
+      "code": "OK",
+      "total": 48,
+      "majority": 25,
+      "current": {
+        "D": 8,
+        "R": 39,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 2,
+        "R": 22,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 8.30786,
+          "median": 8,
+          "p10": 8,
+          "p90": 9,
+          "mode": 8
+        },
+        "R": {
+          "expected": 39.63368,
+          "median": 40,
+          "p10": 39,
+          "p90": 40,
+          "mode": 40
+        },
+        "Other": {
+          "expected": 0.05846,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "OK-lower",
+      "code": "OK",
+      "total": 101,
+      "majority": 51,
+      "current": {
+        "D": 19,
+        "R": 81,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 23.30944,
+          "median": 23,
+          "p10": 20,
+          "p90": 27,
+          "mode": 23
+        },
+        "R": {
+          "expected": 77.61692,
+          "median": 78,
+          "p10": 74,
+          "p90": 81,
+          "mode": 78
+        },
+        "Other": {
+          "expected": 0.07364,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "OR-upper",
+      "code": "OR",
+      "total": 30,
+      "majority": 16,
+      "current": {
+        "D": 18,
+        "R": 12,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 7,
+        "R": 8,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.9999,
+        "R": 0,
+        "Other": 0.00002,
+        "Tie": 0.00008
+      },
+      "seats": {
+        "D": {
+          "expected": 19.9031,
+          "median": 20,
+          "p10": 19,
+          "p90": 21,
+          "mode": 20
+        },
+        "R": {
+          "expected": 9.98316,
+          "median": 10,
+          "p10": 9,
+          "p90": 11,
+          "mode": 10
+        },
+        "Other": {
+          "expected": 0.11374,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "OR-lower",
+      "code": "OR",
+      "total": 60,
+      "majority": 31,
+      "current": {
+        "D": 37,
+        "R": 23,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.99996,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0.00004
+      },
+      "seats": {
+        "D": {
+          "expected": 40.62632,
+          "median": 41,
+          "p10": 38,
+          "p90": 43,
+          "mode": 41
+        },
+        "R": {
+          "expected": 19.27594,
+          "median": 19,
+          "p10": 16,
+          "p90": 22,
+          "mode": 19
+        },
+        "Other": {
+          "expected": 0.09774,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "PA-upper",
+      "code": "PA",
+      "total": 50,
+      "majority": 26,
+      "current": {
+        "D": 23,
+        "R": 27,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 10,
+        "R": 15,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.16902,
+        "R": 0.64526,
+        "Other": 0.0219,
+        "Tie": 0.16382
+      },
+      "seats": {
+        "D": {
+          "expected": 23.69126,
+          "median": 24,
+          "p10": 21,
+          "p90": 26,
+          "mode": 24
+        },
+        "R": {
+          "expected": 26.24806,
+          "median": 26,
+          "p10": 24,
+          "p90": 29,
+          "mode": 26
+        },
+        "Other": {
+          "expected": 0.06068,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "PA-lower",
+      "code": "PA",
+      "total": 203,
+      "majority": 102,
+      "current": {
+        "D": 103,
+        "R": 100,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.79288,
+        "R": 0.19914,
+        "Other": 0.00798,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 107.75946,
+          "median": 108,
+          "p10": 98,
+          "p90": 118,
+          "mode": 109
+        },
+        "R": {
+          "expected": 94.92186,
+          "median": 95,
+          "p10": 85,
+          "p90": 105,
+          "mode": 94
+        },
+        "Other": {
+          "expected": 0.31868,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "RI-upper",
+      "code": "RI",
+      "total": 38,
+      "majority": 20,
+      "current": {
+        "D": 34,
+        "R": 4,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 34.4973,
+          "median": 35,
+          "p10": 33,
+          "p90": 36,
+          "mode": 35
+        },
+        "R": {
+          "expected": 3.40448,
+          "median": 3,
+          "p10": 2,
+          "p90": 5,
+          "mode": 3
+        },
+        "Other": {
+          "expected": 0.09822,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "RI-lower",
+      "code": "RI",
+      "total": 75,
+      "majority": 38,
+      "current": {
+        "D": 63,
+        "R": 10,
+        "Other": 1,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 63.84524,
+          "median": 64,
+          "p10": 61,
+          "p90": 66,
+          "mode": 64
+        },
+        "R": {
+          "expected": 10.85798,
+          "median": 11,
+          "p10": 8,
+          "p90": 13,
+          "mode": 11
+        },
+        "Other": {
+          "expected": 0.29678,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "SC-upper",
+      "code": "SC",
+      "total": 46,
+      "majority": 24,
+      "current": {
+        "D": 12,
+        "R": 34,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 12,
+        "R": 34,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 12,
+          "median": 12,
+          "p10": 12,
+          "p90": 12,
+          "mode": 12
+        },
+        "R": {
+          "expected": 34,
+          "median": 34,
+          "p10": 34,
+          "p90": 34,
+          "mode": 34
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "SC-lower",
+      "code": "SC",
+      "total": 124,
+      "majority": 63,
+      "current": {
+        "D": 35,
+        "R": 89,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.0012,
+        "R": 0.99786,
+        "Other": 0.00034,
+        "Tie": 0.0006
+      },
+      "seats": {
+        "D": {
+          "expected": 42.35796,
+          "median": 42,
+          "p10": 36,
+          "p90": 50,
+          "mode": 40
+        },
+        "R": {
+          "expected": 81.48246,
+          "median": 82,
+          "p10": 74,
+          "p90": 88,
+          "mode": 84
+        },
+        "Other": {
+          "expected": 0.15958,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "SD-upper",
+      "code": "SD",
+      "total": 35,
+      "majority": 18,
+      "current": {
+        "D": 3,
+        "R": 32,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 4.45522,
+          "median": 4,
+          "p10": 2,
+          "p90": 7,
+          "mode": 4
+        },
+        "R": {
+          "expected": 30.46812,
+          "median": 30,
+          "p10": 28,
+          "p90": 33,
+          "mode": 30
+        },
+        "Other": {
+          "expected": 0.07666,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "SD-lower",
+      "code": "SD",
+      "total": 70,
+      "majority": 36,
+      "current": {
+        "D": 5,
+        "R": 65,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 8.0385,
+          "median": 8,
+          "p10": 4,
+          "p90": 12,
+          "mode": 8
+        },
+        "R": {
+          "expected": 60.50864,
+          "median": 61,
+          "p10": 56,
+          "p90": 65,
+          "mode": 61
+        },
+        "Other": {
+          "expected": 1.45286,
+          "median": 2,
+          "p10": 0,
+          "p90": 3,
+          "mode": 2
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "TN-upper",
+      "code": "TN",
+      "total": 33,
+      "majority": 17,
+      "current": {
+        "D": 6,
+        "R": 27,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 2,
+        "R": 14,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 6.45936,
+          "median": 6,
+          "p10": 6,
+          "p90": 7,
+          "mode": 6
+        },
+        "R": {
+          "expected": 26.5396,
+          "median": 27,
+          "p10": 26,
+          "p90": 27,
+          "mode": 27
+        },
+        "Other": {
+          "expected": 0.00104,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "TN-lower",
+      "code": "TN",
+      "total": 99,
+      "majority": 50,
+      "current": {
+        "D": 24,
+        "R": 75,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 26.13082,
+          "median": 26,
+          "p10": 24,
+          "p90": 29,
+          "mode": 26
+        },
+        "R": {
+          "expected": 72.78844,
+          "median": 73,
+          "p10": 70,
+          "p90": 75,
+          "mode": 73
+        },
+        "Other": {
+          "expected": 0.08074,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "TX-upper",
+      "code": "TX",
+      "total": 31,
+      "majority": 16,
+      "current": {
+        "D": 12,
+        "R": 18,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 7,
+        "R": 8,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.00084,
+        "R": 0.99916,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 11.19158,
+          "median": 11,
+          "p10": 10,
+          "p90": 13,
+          "mode": 11
+        },
+        "R": {
+          "expected": 19.79106,
+          "median": 20,
+          "p10": 18,
+          "p90": 21,
+          "mode": 20
+        },
+        "Other": {
+          "expected": 0.01736,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "TX-lower",
+      "code": "TX",
+      "total": 150,
+      "majority": 76,
+      "current": {
+        "D": 62,
+        "R": 88,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.16422,
+        "R": 0.79698,
+        "Other": 0.00942,
+        "Tie": 0.02938
+      },
+      "seats": {
+        "D": {
+          "expected": 68.71578,
+          "median": 68,
+          "p10": 60,
+          "p90": 78,
+          "mode": 67
+        },
+        "R": {
+          "expected": 81.16314,
+          "median": 82,
+          "p10": 72,
+          "p90": 90,
+          "mode": 82
+        },
+        "Other": {
+          "expected": 0.12108,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "UT-upper",
+      "code": "UT",
+      "total": 29,
+      "majority": 15,
+      "current": {
+        "D": 6,
+        "R": 22,
+        "Other": 1,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 2,
+        "R": 12,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 6.75964,
+          "median": 7,
+          "p10": 6,
+          "p90": 8,
+          "mode": 7
+        },
+        "R": {
+          "expected": 22.11124,
+          "median": 22,
+          "p10": 21,
+          "p90": 23,
+          "mode": 22
+        },
+        "Other": {
+          "expected": 0.12912,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "UT-lower",
+      "code": "UT",
+      "total": 75,
+      "majority": 38,
+      "current": {
+        "D": 14,
+        "R": 61,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 0.9999,
+        "Other": 0.0001,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 20.5263,
+          "median": 20,
+          "p10": 16,
+          "p90": 25,
+          "mode": 20
+        },
+        "R": {
+          "expected": 53.58182,
+          "median": 54,
+          "p10": 49,
+          "p90": 58,
+          "mode": 55
+        },
+        "Other": {
+          "expected": 0.89188,
+          "median": 1,
+          "p10": 0,
+          "p90": 2,
+          "mode": 1
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "VT-upper",
+      "code": "VT",
+      "total": 30,
+      "majority": 16,
+      "current": {
+        "D": 16,
+        "R": 13,
+        "Other": 1,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 22.27298,
+          "median": 23,
+          "p10": 21,
+          "p90": 23,
+          "mode": 23
+        },
+        "R": {
+          "expected": 6.28412,
+          "median": 6,
+          "p10": 5,
+          "p90": 8,
+          "mode": 6
+        },
+        "Other": {
+          "expected": 1.4429,
+          "median": 2,
+          "p10": 1,
+          "p90": 2,
+          "mode": 2
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "VT-lower",
+      "code": "VT",
+      "total": 150,
+      "majority": 76,
+      "current": {
+        "D": 87,
+        "R": 55,
+        "Other": 8,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 113.90522,
+          "median": 114,
+          "p10": 109,
+          "p90": 118,
+          "mode": 115
+        },
+        "R": {
+          "expected": 27.66428,
+          "median": 27,
+          "p10": 24,
+          "p90": 32,
+          "mode": 26
+        },
+        "Other": {
+          "expected": 8.4305,
+          "median": 8,
+          "p10": 7,
+          "p90": 10,
+          "mode": 8
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "VA-upper",
+      "code": "VA",
+      "total": 40,
+      "majority": 21,
+      "current": {
+        "D": 21,
+        "R": 19,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 21,
+        "R": 19,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 21,
+          "median": 21,
+          "p10": 21,
+          "p90": 21,
+          "mode": 21
+        },
+        "R": {
+          "expected": 19,
+          "median": 19,
+          "p10": 19,
+          "p90": 19,
+          "mode": 19
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "VA-lower",
+      "code": "VA",
+      "total": 100,
+      "majority": 51,
+      "current": {
+        "D": 63,
+        "R": 36,
+        "Other": 0,
+        "vacant": 1
+      },
+      "holdover": {
+        "D": 63,
+        "R": 36,
+        "Other": 0,
+        "vacant": 1
+      },
+      "eligible": false,
+      "exclusion": "No regular election",
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 63,
+          "median": 63,
+          "p10": 63,
+          "p90": 63,
+          "mode": 63
+        },
+        "R": {
+          "expected": 36,
+          "median": 36,
+          "p10": 36,
+          "p90": 36,
+          "mode": 36
+        },
+        "Other": {
+          "expected": 0,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 1
+      }
+    },
+    {
+      "chamberId": "WA-upper",
+      "code": "WA",
+      "total": 49,
+      "majority": 25,
+      "current": {
+        "D": 30,
+        "R": 19,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 13,
+        "R": 12,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 30.99256,
+          "median": 31,
+          "p10": 30,
+          "p90": 32,
+          "mode": 31
+        },
+        "R": {
+          "expected": 17.97102,
+          "median": 18,
+          "p10": 17,
+          "p90": 19,
+          "mode": 18
+        },
+        "Other": {
+          "expected": 0.03642,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "WA-lower",
+      "code": "WA",
+      "total": 98,
+      "majority": 50,
+      "current": {
+        "D": 59,
+        "R": 39,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.99998,
+        "R": 0,
+        "Other": 0.00002,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 72.43272,
+          "median": 73,
+          "p10": 66,
+          "p90": 78,
+          "mode": 74
+        },
+        "R": {
+          "expected": 25.2163,
+          "median": 25,
+          "p10": 19,
+          "p90": 31,
+          "mode": 24
+        },
+        "Other": {
+          "expected": 0.35098,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "WV-upper",
+      "code": "WV",
+      "total": 34,
+      "majority": 18,
+      "current": {
+        "D": 2,
+        "R": 32,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 1,
+        "R": 16,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 1.6243,
+          "median": 2,
+          "p10": 1,
+          "p90": 2,
+          "mode": 1
+        },
+        "R": {
+          "expected": 32.21156,
+          "median": 32,
+          "p10": 31,
+          "p90": 33,
+          "mode": 32
+        },
+        "Other": {
+          "expected": 0.16414,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "WV-lower",
+      "code": "WV",
+      "total": 100,
+      "majority": 51,
+      "current": {
+        "D": 9,
+        "R": 91,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 9.85544,
+          "median": 9,
+          "p10": 7,
+          "p90": 13,
+          "mode": 9
+        },
+        "R": {
+          "expected": 88.78828,
+          "median": 89,
+          "p10": 86,
+          "p90": 91,
+          "mode": 90
+        },
+        "Other": {
+          "expected": 1.35628,
+          "median": 1,
+          "p10": 1,
+          "p90": 2,
+          "mode": 1
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "WI-upper",
+      "code": "WI",
+      "total": 33,
+      "majority": 17,
+      "current": {
+        "D": 15,
+        "R": 18,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 10,
+        "R": 6,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0.80272,
+        "R": 0.15246,
+        "Other": 0.04482,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 17.55068,
+          "median": 18,
+          "p10": 16,
+          "p90": 19,
+          "mode": 18
+        },
+        "R": {
+          "expected": 14.96736,
+          "median": 15,
+          "p10": 13,
+          "p90": 17,
+          "mode": 15
+        },
+        "Other": {
+          "expected": 0.48196,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "WI-lower",
+      "code": "WI",
+      "total": 99,
+      "majority": 50,
+      "current": {
+        "D": 45,
+        "R": 54,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": true,
+      "probabilities": {
+        "D": 0.66722,
+        "R": 0.30586,
+        "Other": 0.02692,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 51.52734,
+          "median": 52,
+          "p10": 45,
+          "p90": 58,
+          "mode": 52
+        },
+        "R": {
+          "expected": 47.00824,
+          "median": 47,
+          "p10": 41,
+          "p90": 54,
+          "mode": 47
+        },
+        "Other": {
+          "expected": 0.46442,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "WY-upper",
+      "code": "WY",
+      "total": 31,
+      "majority": 16,
+      "current": {
+        "D": 2,
+        "R": 29,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 15,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 2.15898,
+          "median": 2,
+          "p10": 2,
+          "p90": 3,
+          "mode": 2
+        },
+        "R": {
+          "expected": 28.83806,
+          "median": 29,
+          "p10": 28,
+          "p90": 29,
+          "mode": 29
+        },
+        "Other": {
+          "expected": 0.00296,
+          "median": 0,
+          "p10": 0,
+          "p90": 0,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    },
+    {
+      "chamberId": "WY-lower",
+      "code": "WY",
+      "total": 62,
+      "majority": 32,
+      "current": {
+        "D": 6,
+        "R": 56,
+        "Other": 0,
+        "vacant": 0
+      },
+      "holdover": {
+        "D": 0,
+        "R": 0,
+        "Other": 0,
+        "vacant": 0
+      },
+      "eligible": true,
+      "exclusion": null,
+      "competitive": false,
+      "probabilities": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "seats": {
+        "D": {
+          "expected": 6.29664,
+          "median": 6,
+          "p10": 5,
+          "p90": 8,
+          "mode": 6
+        },
+        "R": {
+          "expected": 55.4284,
+          "median": 55,
+          "p10": 54,
+          "p90": 57,
+          "mode": 56
+        },
+        "Other": {
+          "expected": 0.27496,
+          "median": 0,
+          "p10": 0,
+          "p90": 1,
+          "mode": 0
+        },
+        "vacant": 0
+      }
+    }
+  ],
+  "alignedStateOutcomes": {
+    "AL": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 1,
+      "unicameral": false
+    },
+    "AK": {
+      "D": 0.68584,
+      "R": 0,
+      "split": 0.31416,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 0.00154,
+      "unicameral": false
+    },
+    "AZ": {
+      "D": 0.43298,
+      "R": 0.11648,
+      "split": 0.17534,
+      "unresolved": 0.2752,
+      "vetoD": 0.00352,
+      "vetoR": 0.00004,
+      "unicameral": false
+    },
+    "AR": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 1,
+      "unicameral": false
+    },
+    "CA": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0.99848,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "CO": {
+      "D": 0.99966,
+      "R": 0.00002,
+      "split": 0.00022,
+      "unresolved": 0.0001,
+      "vetoD": 0.4445,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "CT": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0.99414,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "DE": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0.9999,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "FL": {
+      "D": 0.0001,
+      "R": 0.92046,
+      "split": 0.03856,
+      "unresolved": 0.04088,
+      "vetoD": 0,
+      "vetoR": 0.069,
+      "unicameral": false
+    },
+    "GA": {
+      "D": 0.0693,
+      "R": 0.44504,
+      "split": 0.3354,
+      "unresolved": 0.15026,
+      "vetoD": 0,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "HI": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 1,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "ID": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 0.99998,
+      "unicameral": false
+    },
+    "IL": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0.99902,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "IN": {
+      "D": 0,
+      "R": 0.99926,
+      "split": 0.00038,
+      "unresolved": 0.00036,
+      "vetoD": 0,
+      "vetoR": 0.99926,
+      "unicameral": false
+    },
+    "IA": {
+      "D": 0,
+      "R": 0.95968,
+      "split": 0.02714,
+      "unresolved": 0.01318,
+      "vetoD": 0,
+      "vetoR": 0.08328,
+      "unicameral": false
+    },
+    "KS": {
+      "D": 0,
+      "R": 0.99752,
+      "split": 0.00218,
+      "unresolved": 0.0003,
+      "vetoD": 0,
+      "vetoR": 0.05422,
+      "unicameral": false
+    },
+    "KY": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 1,
+      "unicameral": false
+    },
+    "LA": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 1,
+      "unicameral": false
+    },
+    "ME": {
+      "D": 0.94148,
+      "R": 0.00256,
+      "split": 0.0201,
+      "unresolved": 0.03586,
+      "vetoD": 0.07724,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "MD": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 1,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "MA": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 1,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "MI": {
+      "D": 0.55602,
+      "R": 0.0747,
+      "split": 0.17014,
+      "unresolved": 0.19914,
+      "vetoD": 0.00412,
+      "vetoR": 0.00002,
+      "unicameral": false
+    },
+    "MN": {
+      "D": 0.93374,
+      "R": 0.0074,
+      "split": 0.04558,
+      "unresolved": 0.01328,
+      "vetoD": 0.01214,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "MS": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "MO": {
+      "D": 0,
+      "R": 0.99984,
+      "split": 0.00016,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 0.12728,
+      "unicameral": false
+    },
+    "MT": {
+      "D": 0,
+      "R": 0.98438,
+      "split": 0.00544,
+      "unresolved": 0.01018,
+      "vetoD": 0,
+      "vetoR": 0.01664,
+      "unicameral": false
+    },
+    "NE": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 0.78602,
+      "unicameral": true
+    },
+    "NV": {
+      "D": 0.93672,
+      "R": 0.00348,
+      "split": 0.03752,
+      "unresolved": 0.02228,
+      "vetoD": 0.17216,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "NH": {
+      "D": 0.75388,
+      "R": 0.03304,
+      "split": 0.11166,
+      "unresolved": 0.10142,
+      "vetoD": 0.19564,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "NJ": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "NM": {
+      "D": 0.99986,
+      "R": 0,
+      "split": 0.00004,
+      "unresolved": 0.0001,
+      "vetoD": 0,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "NY": {
+      "D": 0.99996,
+      "R": 0,
+      "split": 0.00002,
+      "unresolved": 0.00002,
+      "vetoD": 0.76582,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "NC": {
+      "D": 0.16036,
+      "R": 0.40522,
+      "split": 0.2192,
+      "unresolved": 0.21522,
+      "vetoD": 0.00538,
+      "vetoR": 0.00382,
+      "unicameral": false
+    },
+    "ND": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 1,
+      "unicameral": false
+    },
+    "OH": {
+      "D": 0,
+      "R": 0.98298,
+      "split": 0.01468,
+      "unresolved": 0.00234,
+      "vetoD": 0,
+      "vetoR": 0.48446,
+      "unicameral": false
+    },
+    "OK": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 0.99946,
+      "unicameral": false
+    },
+    "OR": {
+      "D": 0.99986,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0.00014,
+      "vetoD": 0.52426,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "PA": {
+      "D": 0.16396,
+      "R": 0.17976,
+      "split": 0.46358,
+      "unresolved": 0.1927,
+      "vetoD": 0,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "RI": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 1,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "SC": {
+      "D": 0,
+      "R": 0.99786,
+      "split": 0.0012,
+      "unresolved": 0.00094,
+      "vetoD": 0,
+      "vetoR": 0.46386,
+      "unicameral": false
+    },
+    "SD": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 1,
+      "unicameral": false
+    },
+    "TN": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 1,
+      "unicameral": false
+    },
+    "TX": {
+      "D": 0.0007,
+      "R": 0.79686,
+      "split": 0.16364,
+      "unresolved": 0.0388,
+      "vetoD": 0,
+      "vetoR": 0.00058,
+      "unicameral": false
+    },
+    "UT": {
+      "D": 0,
+      "R": 0.9999,
+      "split": 0,
+      "unresolved": 0.0001,
+      "vetoD": 0,
+      "vetoR": 0.85862,
+      "unicameral": false
+    },
+    "VT": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0.99626,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "VA": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "WA": {
+      "D": 0.99998,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0.00002,
+      "vetoD": 0,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "WV": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 1,
+      "unicameral": false
+    },
+    "WI": {
+      "D": 0.591,
+      "R": 0.09462,
+      "split": 0.24406,
+      "unresolved": 0.07032,
+      "vetoD": 0.00018,
+      "vetoR": 0,
+      "unicameral": false
+    },
+    "WY": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "vetoD": 0,
+      "vetoR": 1,
+      "unicameral": false
+    }
+  },
+  "stateSeatOutcomes": {
+    "AL": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "AK": {
+      "D": 0,
+      "R": 0.45844,
+      "split": 0,
+      "unresolved": 0.54156,
+      "unicameral": false
+    },
+    "AZ": {
+      "D": 0.43298,
+      "R": 0.11648,
+      "split": 0.17534,
+      "unresolved": 0.2752,
+      "unicameral": false
+    },
+    "AR": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "CA": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "CO": {
+      "D": 0.99966,
+      "R": 0.00002,
+      "split": 0.00022,
+      "unresolved": 0.0001,
+      "unicameral": false
+    },
+    "CT": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "DE": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "FL": {
+      "D": 0.0001,
+      "R": 0.92046,
+      "split": 0.03856,
+      "unresolved": 0.04088,
+      "unicameral": false
+    },
+    "GA": {
+      "D": 0.0693,
+      "R": 0.44504,
+      "split": 0.3354,
+      "unresolved": 0.15026,
+      "unicameral": false
+    },
+    "HI": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "ID": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "IL": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "IN": {
+      "D": 0,
+      "R": 0.99926,
+      "split": 0.00038,
+      "unresolved": 0.00036,
+      "unicameral": false
+    },
+    "IA": {
+      "D": 0,
+      "R": 0.95968,
+      "split": 0.02714,
+      "unresolved": 0.01318,
+      "unicameral": false
+    },
+    "KS": {
+      "D": 0,
+      "R": 0.99752,
+      "split": 0.00218,
+      "unresolved": 0.0003,
+      "unicameral": false
+    },
+    "KY": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "LA": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "ME": {
+      "D": 0.94148,
+      "R": 0.00256,
+      "split": 0.0201,
+      "unresolved": 0.03586,
+      "unicameral": false
+    },
+    "MD": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "MA": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "MI": {
+      "D": 0.55602,
+      "R": 0.0747,
+      "split": 0.17014,
+      "unresolved": 0.19914,
+      "unicameral": false
+    },
+    "MN": {
+      "D": 0.93374,
+      "R": 0.0074,
+      "split": 0.04558,
+      "unresolved": 0.01328,
+      "unicameral": false
+    },
+    "MS": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "MO": {
+      "D": 0,
+      "R": 0.99984,
+      "split": 0.00016,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "MT": {
+      "D": 0,
+      "R": 0.98438,
+      "split": 0.00544,
+      "unresolved": 0.01018,
+      "unicameral": false
+    },
+    "NE": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": true
+    },
+    "NV": {
+      "D": 0.93672,
+      "R": 0.00348,
+      "split": 0.03752,
+      "unresolved": 0.02228,
+      "unicameral": false
+    },
+    "NH": {
+      "D": 0.75388,
+      "R": 0.03304,
+      "split": 0.11166,
+      "unresolved": 0.10142,
+      "unicameral": false
+    },
+    "NJ": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "NM": {
+      "D": 0.99986,
+      "R": 0,
+      "split": 0.00004,
+      "unresolved": 0.0001,
+      "unicameral": false
+    },
+    "NY": {
+      "D": 0.99996,
+      "R": 0,
+      "split": 0.00002,
+      "unresolved": 0.00002,
+      "unicameral": false
+    },
+    "NC": {
+      "D": 0.16036,
+      "R": 0.40522,
+      "split": 0.2192,
+      "unresolved": 0.21522,
+      "unicameral": false
+    },
+    "ND": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "OH": {
+      "D": 0,
+      "R": 0.98298,
+      "split": 0.01468,
+      "unresolved": 0.00234,
+      "unicameral": false
+    },
+    "OK": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "OR": {
+      "D": 0.99986,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0.00014,
+      "unicameral": false
+    },
+    "PA": {
+      "D": 0.16396,
+      "R": 0.17976,
+      "split": 0.46358,
+      "unresolved": 0.1927,
+      "unicameral": false
+    },
+    "RI": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "SC": {
+      "D": 0,
+      "R": 0.99786,
+      "split": 0.0012,
+      "unresolved": 0.00094,
+      "unicameral": false
+    },
+    "SD": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "TN": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "TX": {
+      "D": 0.0007,
+      "R": 0.79686,
+      "split": 0.16364,
+      "unresolved": 0.0388,
+      "unicameral": false
+    },
+    "UT": {
+      "D": 0,
+      "R": 0.9999,
+      "split": 0,
+      "unresolved": 0.0001,
+      "unicameral": false
+    },
+    "VT": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "VA": {
+      "D": 1,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "WA": {
+      "D": 0.99998,
+      "R": 0,
+      "split": 0,
+      "unresolved": 0.00002,
+      "unicameral": false
+    },
+    "WV": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    },
+    "WI": {
+      "D": 0.591,
+      "R": 0.09462,
+      "split": 0.24406,
+      "unresolved": 0.07032,
+      "unicameral": false
+    },
+    "WY": {
+      "D": 0,
+      "R": 1,
+      "split": 0,
+      "unresolved": 0,
+      "unicameral": false
+    }
+  }
+}

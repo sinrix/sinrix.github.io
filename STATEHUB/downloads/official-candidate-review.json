@@ -1,0 +1,27 @@
+{
+  "retrievedAt": "2026-10-05T00:07:38.883507Z",
+  "resolvedCandidateSeats": 269,
+  "remainingCandidateSeats": 50,
+  "incumbentCrosswalk": "Unique surname and same-party match against pre-existing dated roster; never inferred from official filing status alone.",
+  "ambiguousIncumbents": [],
+  "sources": [
+    {
+      "code": "IL",
+      "url": "https://www.elections.il.gov/ElectionOperations/CandidateFilingSearch.aspx?ID=sejIrI%2BQmww%3D",
+      "sourceSha256": "88b786d54a4ae735feb9cfdbaab916bdea719730560676e6b4e0fc1f4c4e78ce",
+      "hashBasis": "Downloaded XML bytes",
+      "selection": "Active candidates for legislative offices in 2026 general election; removed and withdrawn rows excluded",
+      "excludedStatuses": {
+        "Removed": 4,
+        "Withdrawn": 7
+      }
+    },
+    {
+      "code": "RI",
+      "url": "https://vote.sos.ri.gov/Candidates/CandidateSearch",
+      "sourceSha256": "56f6f163e839edac21a9044d433c38ca66e3fc5d21c3addf44adc0343272a142",
+      "hashBasis": "Normalized browser-captured qualified-candidate CSV; not upstream HTML bytes",
+      "selection": "Election 18144; On Election Ballot Y. See official-ri-candidates-provenance.json."
+    }
+  ]
+}
