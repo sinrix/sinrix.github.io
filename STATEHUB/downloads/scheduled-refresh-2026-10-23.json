@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-23T13:25:37.146Z",
+  "baseline": "2026-10-20T11-31-46-732Z-e521f5217899ef73-20260913",
+  "sources": [
+    {
+      "id": "silver",
+      "name": "Silver Bulletin · national polling",
+      "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "status": "updated",
+      "observations": 1,
+      "message": "1 verified input found."
+    },
+    {
+      "id": "ncsl",
+      "name": "NCSL · chamber composition",
+      "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+      "status": "unavailable",
+      "observations": 0,
+      "message": "Source returned HTTP 403; existing data was kept."
+    },
+    {
+      "id": "maine",
+      "name": "Maine House · official roster",
+      "url": "https://www.legislature.maine.gov/house/house/",
+      "status": "unchanged",
+      "observations": 0,
+      "message": "No newer changed input; existing records retained."
+    }
+  ],
+  "accepted": [
+    {
+      "id": "auto-silver-1da2f969feb2eadcad784990",
+      "kind": "national-environment",
+      "observedAt": "2026-10-22T00:00:00.000Z",
+      "value": 9.2
+    }
+  ],
+  "changed": true,
+  "publishedSnapshotId": "2026-10-23T13-26-34-318Z-d84fe0c53c24d95f-20260913",
+  "publishedAt": "2026-10-23T13:26:34.318Z",
+  "modelVersion": "0.3.0",
+  "previousNationalMargin": 8.9,
+  "nationalMargin": 9.2,
+  "scope": "Connected national polling and chamber-roster refresh; candidate, district and composition inputs retained."
+}
