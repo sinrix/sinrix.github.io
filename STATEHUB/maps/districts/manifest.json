@@ -1,0 +1,4147 @@
+{
+  "description": "2026 U.S. state legislative geographic district maps; source-backed display geometry and audited forecast identity joins.",
+  "generatedAt": "2026-10-24T01:39:11.970573Z",
+  "electionCycle": 2026,
+  "vintage": "2026-01-01",
+  "planSourceUrl": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/state-legislative-district.html",
+  "sourceLayerUrls": [
+    "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1?f=pjson",
+    "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2?f=pjson"
+  ],
+  "sourceCoordinateReference": "EPSG:4326, queried at 5 decimal places",
+  "processing": {
+    "projection": "state-centered Lambert azimuthal equal-area; same frame for both chambers",
+    "mapshaper": "0.7.97",
+    "shapely": "2.2.0",
+    "simplification": "topology-aware Douglas-Peucker, no smoothing, at most 50 projected meters; all polygon parts exploded and kept before reassembly"
+  },
+  "chambers": 99,
+  "states": 50,
+  "totalBytes": 23610414,
+  "entries": [
+    {
+      "stateCode": "AK",
+      "chamberId": "AK-upper",
+      "path": "maps/districts/ak-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2702%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:14:03.331962Z",
+      "sourceSha256": "91a96e39c2b6c7e94c9e7cc42e9f86cdcc36b88db5903aa774e73f2fe69e2c31",
+      "sourceBytes": 1821451,
+      "sourceFeatures": 20,
+      "outputSha256": "0680c6b2aa65699f66a1c7a6cf79e767445cbc1b9af9e89c5cb416ac0eba9fc5",
+      "bytes": 258096,
+      "coverage": {
+        "districtCount": 20,
+        "ordinaryDistrictCount": 20,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 10,
+        "matchedGeometryCount": 10,
+        "forecastCompatibleCount": 10,
+        "unmatchedGeometryCount": 10,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 69,
+        "sourceRepairedPolygonParts": 69,
+        "displayPolygonParts": 69,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "AK",
+      "chamberId": "AK-lower",
+      "path": "maps/districts/ak-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2702%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:14:03.931857Z",
+      "sourceSha256": "f2e8b3b716cb9e572c02f4fa07abe787029c2821d6c963530c38efa06f9a8f92",
+      "sourceBytes": 2651963,
+      "sourceFeatures": 40,
+      "outputSha256": "8aeb9ee6e60f025c709b2a934be9000a3ad3cc3d77094de22ac01f66d2c7a924",
+      "bytes": 333192,
+      "coverage": {
+        "districtCount": 40,
+        "ordinaryDistrictCount": 40,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 40,
+        "matchedGeometryCount": 40,
+        "forecastCompatibleCount": 40,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 89,
+        "sourceRepairedPolygonParts": 89,
+        "displayPolygonParts": 89,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "AL",
+      "chamberId": "AL-upper",
+      "path": "maps/districts/al-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2701%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:14:20.820322Z",
+      "sourceSha256": "fcbd0b5f4a30393ba7a76c52ce4fbd6659d47f2e3171c081b3a8e8350b9eb9cf",
+      "sourceBytes": 3925111,
+      "sourceFeatures": 35,
+      "outputSha256": "a3245665d15843c5852a76fe68d6b7d53679b8747f2cb1191f52919dd1f0b833",
+      "bytes": 243654,
+      "coverage": {
+        "districtCount": 35,
+        "ordinaryDistrictCount": 35,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 35,
+        "matchedGeometryCount": 35,
+        "forecastCompatibleCount": 35,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "01009"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 36,
+        "sourceRepairedPolygonParts": 36,
+        "displayPolygonParts": 36,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "AL",
+      "chamberId": "AL-lower",
+      "path": "maps/districts/al-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2701%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:14:51.934309Z",
+      "sourceSha256": "dfee94857044fe0c7ed5c4de6971c5ab9392921eb582a460fe1e78b14f9be666",
+      "sourceBytes": 7856383,
+      "sourceFeatures": 105,
+      "outputSha256": "de8c5da80b2f45bb704f0033b46a3bfe8c81429bced57713c0aadb61da1c6756",
+      "bytes": 501451,
+      "coverage": {
+        "districtCount": 105,
+        "ordinaryDistrictCount": 105,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 105,
+        "matchedGeometryCount": 105,
+        "forecastCompatibleCount": 105,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "01027"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 106,
+        "sourceRepairedPolygonParts": 106,
+        "displayPolygonParts": 106,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "AR",
+      "chamberId": "AR-upper",
+      "path": "maps/districts/ar-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2705%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:14:59.232498Z",
+      "sourceSha256": "4a9b46b8cd4fcb062f18c83a499e2d4295586e16eed475640158a9da9aeca65c",
+      "sourceBytes": 4385450,
+      "sourceFeatures": 35,
+      "outputSha256": "0edfbe63d72db650f22e33f2eaf72fea72584c852afb5a11c1edea7bdf8b9cfd",
+      "bytes": 197733,
+      "coverage": {
+        "districtCount": 35,
+        "ordinaryDistrictCount": 35,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 17,
+        "matchedGeometryCount": 17,
+        "forecastCompatibleCount": 17,
+        "unmatchedGeometryCount": 18,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 48.7671,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 35,
+        "sourceRepairedPolygonParts": 35,
+        "displayPolygonParts": 35,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "AR",
+      "chamberId": "AR-lower",
+      "path": "maps/districts/ar-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2705%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:15:27.897077Z",
+      "sourceSha256": "d9bf83aeb3ff83a5947fb744f1828933f0524d2cd06aa4c5cab150f6e3f53f9d",
+      "sourceBytes": 6599563,
+      "sourceFeatures": 100,
+      "outputSha256": "b72791d8f14f32f470cccf6ad676246a42cd0d2ef147b430a17046e3d1bb8f4e",
+      "bytes": 314046,
+      "coverage": {
+        "districtCount": 100,
+        "ordinaryDistrictCount": 100,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 100,
+        "matchedGeometryCount": 100,
+        "forecastCompatibleCount": 100,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 48.7671,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "05042",
+          "05084",
+          "05090"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 101,
+        "sourceRepairedPolygonParts": 101,
+        "displayPolygonParts": 101,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "AZ",
+      "chamberId": "AZ-upper",
+      "path": "maps/districts/az-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2704%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:14:29.689669Z",
+      "sourceSha256": "d6baf5304ee7554fa053bf6d08c7140f21a6f4591a56c00764f002e73c359a45",
+      "sourceBytes": 3006192,
+      "sourceFeatures": 30,
+      "outputSha256": "7f207d6854a5dff7f858710ac43cf4cdf33af9f8b1d2280ca9379b07b2f07217",
+      "bytes": 152283,
+      "coverage": {
+        "districtCount": 30,
+        "ordinaryDistrictCount": 30,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 30,
+        "matchedGeometryCount": 30,
+        "forecastCompatibleCount": 30,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 30,
+        "sourceRepairedPolygonParts": 30,
+        "displayPolygonParts": 30,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "AZ",
+      "chamberId": "AZ-lower",
+      "path": "maps/districts/az-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2704%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:14:31.076580Z",
+      "sourceSha256": "15f37da57a035ae17b1d0a082a6598f65dd979ffb8406b341543b52f70ffaa60",
+      "sourceBytes": 3006162,
+      "sourceFeatures": 30,
+      "outputSha256": "dc4be161cb67eade5503e7ea40cd4a30bc48fb67998e410bb25ba243595a5c7f",
+      "bytes": 152283,
+      "coverage": {
+        "districtCount": 30,
+        "ordinaryDistrictCount": 30,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 30,
+        "matchedGeometryCount": 30,
+        "forecastCompatibleCount": 30,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 30,
+        "sourceRepairedPolygonParts": 30,
+        "displayPolygonParts": 30,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "CA",
+      "chamberId": "CA-upper",
+      "path": "maps/districts/ca-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:15:28.926854Z",
+      "sourceSha256": "c62f61cd2d3ff494379e01b35b4438da9ac1b1257811bd2f28b8554d51b42c8d",
+      "sourceBytes": 6970789,
+      "sourceFeatures": 40,
+      "outputSha256": "284f2b309f187c030b0dd4d55fa89b994aeeac04370a9bdb37114efc483cc6a7",
+      "bytes": 427946,
+      "coverage": {
+        "districtCount": 40,
+        "ordinaryDistrictCount": 40,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 20,
+        "matchedGeometryCount": 20,
+        "forecastCompatibleCount": 20,
+        "unmatchedGeometryCount": 20,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 47,
+        "sourceRepairedPolygonParts": 47,
+        "displayPolygonParts": 47,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "CA",
+      "chamberId": "CA-lower",
+      "path": "maps/districts/ca-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2706%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:14:52.128260Z",
+      "sourceSha256": "eb5b496e03996d7ecb6cf7d3037a2a1232f0e1252ffc5f2ffb9681f2f9c97418",
+      "sourceBytes": 8821823,
+      "sourceFeatures": 80,
+      "outputSha256": "196ce911f8c427a4aecd4011e0d3ce46c8b9e253c79d3cdcedaf1f0f942f9ced",
+      "bytes": 531766,
+      "coverage": {
+        "districtCount": 80,
+        "ordinaryDistrictCount": 80,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 80,
+        "matchedGeometryCount": 80,
+        "forecastCompatibleCount": 80,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 87,
+        "sourceRepairedPolygonParts": 87,
+        "displayPolygonParts": 87,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "CO",
+      "chamberId": "CO-upper",
+      "path": "maps/districts/co-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2708%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:15:13.087491Z",
+      "sourceSha256": "9201efee3278746d0a4a8964b2757494ff7cdbe93ffcf56befc87fc13c935fc4",
+      "sourceBytes": 2459415,
+      "sourceFeatures": 35,
+      "outputSha256": "def7cfbfa37d672fd3fc9165386663b9ad28a1e27937323abc296bbd0bbbbd5d",
+      "bytes": 160378,
+      "coverage": {
+        "districtCount": 35,
+        "ordinaryDistrictCount": 35,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 17,
+        "matchedGeometryCount": 17,
+        "forecastCompatibleCount": 17,
+        "unmatchedGeometryCount": 18,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "08013"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 36,
+        "sourceRepairedPolygonParts": 36,
+        "displayPolygonParts": 36,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "CO",
+      "chamberId": "CO-lower",
+      "path": "maps/districts/co-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2708%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:15:33.282562Z",
+      "sourceSha256": "15281c160879ef9d70283817bcf59ec61d3af1971e64174ec65190f082fb382e",
+      "sourceBytes": 3471183,
+      "sourceFeatures": 65,
+      "outputSha256": "a4cf8353a1e4f3d8e2921489dde817302154d66f0571d6a3812d4ab8a5c29a16",
+      "bytes": 228827,
+      "coverage": {
+        "districtCount": 65,
+        "ordinaryDistrictCount": 65,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 65,
+        "matchedGeometryCount": 65,
+        "forecastCompatibleCount": 65,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "08058"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 66,
+        "sourceRepairedPolygonParts": 66,
+        "displayPolygonParts": 66,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "CT",
+      "chamberId": "CT-upper",
+      "path": "maps/districts/ct-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2709%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:15:27.983746Z",
+      "sourceSha256": "856f4877e9714b437d60fc3b02fa991780c2b11609bf33e637f3a5e6c80d1cce",
+      "sourceBytes": 1500125,
+      "sourceFeatures": 37,
+      "outputSha256": "9b89ee36edc1403f7f10033f2faf3eaa28c3f40267710385714a662f0e2fe3ad",
+      "bytes": 150089,
+      "coverage": {
+        "districtCount": 36,
+        "ordinaryDistrictCount": 36,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 36,
+        "matchedGeometryCount": 36,
+        "forecastCompatibleCount": 36,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": [
+          "09ZZZ"
+        ]
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 15.2486,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 37,
+        "sourceRepairedPolygonParts": 37,
+        "displayPolygonParts": 37,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "CT",
+      "chamberId": "CT-lower",
+      "path": "maps/districts/ct-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2709%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:15:54.573115Z",
+      "sourceSha256": "ecadc445492f8c6487945bb263aeea82ec65cb309bb016b0d2a4323a79962d4b",
+      "sourceBytes": 2728803,
+      "sourceFeatures": 152,
+      "outputSha256": "26a10d711f507ce425ca951434bfcd3979a9e5b78d4ed2ddbaf3f5773615847e",
+      "bytes": 294714,
+      "coverage": {
+        "districtCount": 151,
+        "ordinaryDistrictCount": 151,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 151,
+        "matchedGeometryCount": 151,
+        "forecastCompatibleCount": 151,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": [
+          "09ZZZ"
+        ]
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 15.2486,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 152,
+        "sourceRepairedPolygonParts": 152,
+        "displayPolygonParts": 152,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "DE",
+      "chamberId": "DE-upper",
+      "path": "maps/districts/de-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2710%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:15:35.480976Z",
+      "sourceSha256": "a522dab5b55833a503a13372978233fc82d2851f9eab8396eec42aa9dc896df9",
+      "sourceBytes": 652000,
+      "sourceFeatures": 21,
+      "outputSha256": "2a12b0f012344be9444c9af9b3fe005e3fac0ac0433c3fd82f5a0b9dd08b9245",
+      "bytes": 53020,
+      "coverage": {
+        "districtCount": 21,
+        "ordinaryDistrictCount": 21,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 11,
+        "matchedGeometryCount": 11,
+        "forecastCompatibleCount": 11,
+        "unmatchedGeometryCount": 10,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 19.2661,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 21,
+        "sourceRepairedPolygonParts": 21,
+        "displayPolygonParts": 21,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "DE",
+      "chamberId": "DE-lower",
+      "path": "maps/districts/de-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2710%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:15:39.098948Z",
+      "sourceSha256": "3b91e3417a93afecc27362b460d46c62e898fc3704e6693d7c4778195a91cc7b",
+      "sourceBytes": 1030972,
+      "sourceFeatures": 41,
+      "outputSha256": "25b53688b3880914fe9816f7d7a7f50ad8f361fcab9d2d2503b28852d437b17e",
+      "bytes": 86721,
+      "coverage": {
+        "districtCount": 41,
+        "ordinaryDistrictCount": 41,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 41,
+        "matchedGeometryCount": 41,
+        "forecastCompatibleCount": 41,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 19.2661,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 41,
+        "sourceRepairedPolygonParts": 41,
+        "displayPolygonParts": 41,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "FL",
+      "chamberId": "FL-upper",
+      "path": "maps/districts/fl-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2712%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:16:09.647494Z",
+      "sourceSha256": "a6704bcf8c64c5797e4a525f7fe5b7ed269a881930e5af8bc19e1e73819b483f",
+      "sourceBytes": 2609609,
+      "sourceFeatures": 40,
+      "outputSha256": "76c26d7551d858703d4d11c159fb851caa709426aa259d6297b99a883d5f2a3d",
+      "bytes": 140273,
+      "coverage": {
+        "districtCount": 40,
+        "ordinaryDistrictCount": 40,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 20,
+        "matchedGeometryCount": 20,
+        "forecastCompatibleCount": 20,
+        "unmatchedGeometryCount": 20,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 41,
+        "sourceRepairedPolygonParts": 41,
+        "displayPolygonParts": 41,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "FL",
+      "chamberId": "FL-lower",
+      "path": "maps/districts/fl-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2712%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:17:02.525980Z",
+      "sourceSha256": "34f9c01d7fbc50556baaaa1ede251ca43dba52072a49b0cf5c650582800ab10d",
+      "sourceBytes": 4785156,
+      "sourceFeatures": 120,
+      "outputSha256": "34f9dd97935042c0c5a1908a15caf79eff09e275701445e5b8fff6a5ec0538f4",
+      "bytes": 272999,
+      "coverage": {
+        "districtCount": 120,
+        "ordinaryDistrictCount": 120,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 120,
+        "matchedGeometryCount": 120,
+        "forecastCompatibleCount": 120,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 121,
+        "sourceRepairedPolygonParts": 121,
+        "displayPolygonParts": 121,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "GA",
+      "chamberId": "GA-upper",
+      "path": "maps/districts/ga-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2713%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:17:02.612820Z",
+      "sourceSha256": "e22c3a8653cf45ed0e5a5fa5e26cd3dfab49e453486a4e4fa1c830ff9b01a12a",
+      "sourceBytes": 6573297,
+      "sourceFeatures": 56,
+      "outputSha256": "85a466de31a4428817870ebffdabc34bd90ab8e5a232d14884890771003c72b4",
+      "bytes": 358520,
+      "coverage": {
+        "districtCount": 56,
+        "ordinaryDistrictCount": 56,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 56,
+        "matchedGeometryCount": 56,
+        "forecastCompatibleCount": 56,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "13006",
+          "13012",
+          "13016",
+          "13030"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 59,
+        "sourceRepairedPolygonParts": 60,
+        "displayPolygonParts": 60,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "GA",
+      "chamberId": "GA-lower",
+      "path": "maps/districts/ga-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2713%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:17:58.324012Z",
+      "sourceSha256": "60e7f1e63ad4f5bddbf6817f25ad18b5631a26e6f7c3f5df02248957ef7d5431",
+      "sourceBytes": 11522047,
+      "sourceFeatures": 180,
+      "outputSha256": "68d866b1b0c395b4115041ede1ea9ddc8481c74f5ed4ad275f26ea614f8fefad",
+      "bytes": 688444,
+      "coverage": {
+        "districtCount": 180,
+        "ordinaryDistrictCount": 180,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 180,
+        "matchedGeometryCount": 180,
+        "forecastCompatibleCount": 180,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "13135",
+          "13151"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 183,
+        "sourceRepairedPolygonParts": 183,
+        "displayPolygonParts": 183,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "HI",
+      "chamberId": "HI-upper",
+      "path": "maps/districts/hi-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2715%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:16:21.076075Z",
+      "sourceSha256": "7903ee7ac58ac449e656b686e16b03a86dd10f286b4eaa5b2386198f16b1dc96",
+      "sourceBytes": 701845,
+      "sourceFeatures": 25,
+      "outputSha256": "887a63be03f6a03d50b12d4cd856720fe1000014337ef57d7106e9c6a2961db7",
+      "bytes": 71744,
+      "coverage": {
+        "districtCount": 25,
+        "ordinaryDistrictCount": 25,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 13,
+        "matchedGeometryCount": 13,
+        "forecastCompatibleCount": 13,
+        "unmatchedGeometryCount": 12,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 38,
+        "sourceRepairedPolygonParts": 38,
+        "displayPolygonParts": 38,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "HI",
+      "chamberId": "HI-lower",
+      "path": "maps/districts/hi-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2715%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:16:32.048696Z",
+      "sourceSha256": "b64575d75425d30458a4f4c1718a835148d9ae340800211bd2bfaf3ab143e0c4",
+      "sourceBytes": 1453023,
+      "sourceFeatures": 51,
+      "outputSha256": "92e6089744d25dd5cb07f6162c5c5f4d71edf90277a91487a558f10cb9452842",
+      "bytes": 119312,
+      "coverage": {
+        "districtCount": 51,
+        "ordinaryDistrictCount": 51,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 51,
+        "matchedGeometryCount": 51,
+        "forecastCompatibleCount": 51,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 64,
+        "sourceRepairedPolygonParts": 64,
+        "displayPolygonParts": 64,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "IA",
+      "chamberId": "IA-upper",
+      "path": "maps/districts/ia-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2719%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:18:17.447453Z",
+      "sourceSha256": "5dda8f118e7aa33ec6ffbacd9989d1adf7041788e5ea94feba673ff40af052fc",
+      "sourceBytes": 2561171,
+      "sourceFeatures": 50,
+      "outputSha256": "4d4cdc82620cdd528759d6f2d6c60d3d145421551c30361f27b59933a2eb5132",
+      "bytes": 126305,
+      "coverage": {
+        "districtCount": 50,
+        "ordinaryDistrictCount": 50,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 25,
+        "matchedGeometryCount": 25,
+        "forecastCompatibleCount": 25,
+        "unmatchedGeometryCount": 25,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 44.5985,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 50,
+        "sourceRepairedPolygonParts": 50,
+        "displayPolygonParts": 50,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "IA",
+      "chamberId": "IA-lower",
+      "path": "maps/districts/ia-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2719%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:18:41.970161Z",
+      "sourceSha256": "cdbd40a4580299ec882617e68c57e882f15821f463458864d90c0426906e217e",
+      "sourceBytes": 3388322,
+      "sourceFeatures": 100,
+      "outputSha256": "6ced55255557a150e16d92a01866713f8a2fff71c0f0345fd1b6c3e1ba54f6e5",
+      "bytes": 182447,
+      "coverage": {
+        "districtCount": 100,
+        "ordinaryDistrictCount": 100,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 100,
+        "matchedGeometryCount": 100,
+        "forecastCompatibleCount": 100,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 44.5985,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 100,
+        "sourceRepairedPolygonParts": 100,
+        "displayPolygonParts": 100,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "ID",
+      "chamberId": "ID-upper",
+      "path": "maps/districts/id-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2716%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:17:30.107674Z",
+      "sourceSha256": "eee9d9e59b8cf754e28711c5bb56962184ed515bcc115954bf044d766d25873f",
+      "sourceBytes": 3746627,
+      "sourceFeatures": 35,
+      "outputSha256": "808da44f82955ef4d8899891083f6d12e490ef79175db50b994c1fbf73df1149",
+      "bytes": 207317,
+      "coverage": {
+        "districtCount": 35,
+        "ordinaryDistrictCount": 35,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 35,
+        "matchedGeometryCount": 35,
+        "forecastCompatibleCount": 35,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 35,
+        "sourceRepairedPolygonParts": 35,
+        "displayPolygonParts": 35,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "ID",
+      "chamberId": "ID-lower",
+      "path": "maps/districts/id-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2716%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:17:47.695566Z",
+      "sourceSha256": "049df64d42326c5d916acca0290d6a5529fca6a6d454be8997a82c8a9c13b1e4",
+      "sourceBytes": 3746592,
+      "sourceFeatures": 35,
+      "outputSha256": "9b71945f716927cddda5130d8e70df1091f43b8fc6562acf6b99789bd5e04bee",
+      "bytes": 208192,
+      "coverage": {
+        "districtCount": 35,
+        "ordinaryDistrictCount": 35,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 70,
+        "matchedGeometryCount": 35,
+        "forecastCompatibleCount": 35,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 35,
+        "sourceRepairedPolygonParts": 35,
+        "displayPolygonParts": 35,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "IL",
+      "chamberId": "IL-upper",
+      "path": "maps/districts/il-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2717%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:17:54.629292Z",
+      "sourceSha256": "e891469654a56dd31f0f093fdf67de8b1bb70443e0f7486e921526814ac2a412",
+      "sourceBytes": 4520255,
+      "sourceFeatures": 60,
+      "outputSha256": "cb83869338ad0bd8d76d9291d9c5e0fb2cbeb75951532a3632af4c34445858db",
+      "bytes": 174765,
+      "coverage": {
+        "districtCount": 59,
+        "ordinaryDistrictCount": 59,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 39,
+        "matchedGeometryCount": 39,
+        "forecastCompatibleCount": 39,
+        "unmatchedGeometryCount": 20,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": [
+          "17ZZZ"
+        ]
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 59,
+        "sourceRepairedPolygonParts": 59,
+        "displayPolygonParts": 59,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "IL",
+      "chamberId": "IL-lower",
+      "path": "maps/districts/il-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2717%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:18:28.946457Z",
+      "sourceSha256": "ac0a409195dadf8f8385f465f359469f8146a6d6b47c88b7ea27f5b0fc0d07e1",
+      "sourceBytes": 6019644,
+      "sourceFeatures": 119,
+      "outputSha256": "6e1291bbea15b55bdb51797a804d7a7d24f9c7eeb08adfd2580ad2c2f4e18f43",
+      "bytes": 252772,
+      "coverage": {
+        "districtCount": 118,
+        "ordinaryDistrictCount": 118,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 118,
+        "matchedGeometryCount": 118,
+        "forecastCompatibleCount": 118,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": [
+          "17ZZZ"
+        ]
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 118,
+        "sourceRepairedPolygonParts": 118,
+        "displayPolygonParts": 118,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "IN",
+      "chamberId": "IN-upper",
+      "path": "maps/districts/in-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2718%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:18:10.219858Z",
+      "sourceSha256": "63717ef9c253b7e066db700523c064615432738eed7af60f2c6de057fe63279a",
+      "sourceBytes": 2478018,
+      "sourceFeatures": 50,
+      "outputSha256": "cd21a1ebab1d9e89541beb92b234111d402705777bd5c25f6ce2d44fac29cf61",
+      "bytes": 103083,
+      "coverage": {
+        "districtCount": 50,
+        "ordinaryDistrictCount": 50,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 25,
+        "matchedGeometryCount": 25,
+        "forecastCompatibleCount": 25,
+        "unmatchedGeometryCount": 25,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 50,
+        "sourceRepairedPolygonParts": 50,
+        "displayPolygonParts": 50,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "IN",
+      "chamberId": "IN-lower",
+      "path": "maps/districts/in-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2718%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:18:29.862493Z",
+      "sourceSha256": "862de20ca2340ba4c4ed098c4a14c7f61d9197d0c78e6b9bf6dad12b75ead20f",
+      "sourceBytes": 3542916,
+      "sourceFeatures": 100,
+      "outputSha256": "0907ffeffb7b5265993e7c3c2b9e0dae1bf76458db8f2170d69397b4c8362997",
+      "bytes": 163537,
+      "coverage": {
+        "districtCount": 100,
+        "ordinaryDistrictCount": 100,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 100,
+        "matchedGeometryCount": 100,
+        "forecastCompatibleCount": 100,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 100,
+        "sourceRepairedPolygonParts": 100,
+        "displayPolygonParts": 100,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "KS",
+      "chamberId": "KS-upper",
+      "path": "maps/districts/ks-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2720%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:18:41.515461Z",
+      "sourceSha256": "b64f457326e18f61644b329086efaa2471af5defcad870f5fa3b0fb4bdfa543c",
+      "sourceBytes": 2036266,
+      "sourceFeatures": 40,
+      "outputSha256": "18149a63de0320cc5b6d9da1e2ae72ad4c9a1a479f7a06ffc69aba43fc711929",
+      "bytes": 64084,
+      "coverage": {
+        "districtCount": 40,
+        "ordinaryDistrictCount": 40,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 40,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 40,
+        "sourceRepairedPolygonParts": 40,
+        "displayPolygonParts": 40,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "KS",
+      "chamberId": "KS-lower",
+      "path": "maps/districts/ks-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2720%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:18:58.030904Z",
+      "sourceSha256": "76c05779e70e32a79fb0d9ae85631fbdbcbd024569e3184aa7adb45c67fdb083",
+      "sourceBytes": 3374271,
+      "sourceFeatures": 125,
+      "outputSha256": "6c43ac98e3c4fb2a6305a48f041a6a74fadd736df23efb37949342bbe3e9771b",
+      "bytes": 136258,
+      "coverage": {
+        "districtCount": 125,
+        "ordinaryDistrictCount": 125,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 125,
+        "matchedGeometryCount": 125,
+        "forecastCompatibleCount": 125,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 125,
+        "sourceRepairedPolygonParts": 125,
+        "displayPolygonParts": 125,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "KY",
+      "chamberId": "KY-upper",
+      "path": "maps/districts/ky-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2721%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:19:00.414738Z",
+      "sourceSha256": "2ea782f566a27a931b2820505cf77b3bdf06e3115238f7b1ebd854e8e136b6ef",
+      "sourceBytes": 4359553,
+      "sourceFeatures": 38,
+      "outputSha256": "1eb7e0d8f450cf13c5813f242f5b04fdb335ae0b168594a9b12748cc345e841f",
+      "bytes": 313265,
+      "coverage": {
+        "districtCount": 38,
+        "ordinaryDistrictCount": 38,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 19,
+        "matchedGeometryCount": 19,
+        "forecastCompatibleCount": 19,
+        "unmatchedGeometryCount": 19,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 39,
+        "sourceRepairedPolygonParts": 39,
+        "displayPolygonParts": 39,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "KY",
+      "chamberId": "KY-lower",
+      "path": "maps/districts/ky-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2721%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:19:36.795242Z",
+      "sourceSha256": "5b1ee0c204448bd70015ffaa54c9fae3794eb42d87a4e6a72fd0a87742ae293e",
+      "sourceBytes": 7202855,
+      "sourceFeatures": 100,
+      "outputSha256": "bed01d7b3e02a3da3d8764c2ea266531aff58a86369e5f55acb789acfdff8c3a",
+      "bytes": 496609,
+      "coverage": {
+        "districtCount": 100,
+        "ordinaryDistrictCount": 100,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 100,
+        "matchedGeometryCount": 100,
+        "forecastCompatibleCount": 100,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "21030",
+          "21046"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 101,
+        "sourceRepairedPolygonParts": 102,
+        "displayPolygonParts": 101,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "LA",
+      "chamberId": "LA-upper",
+      "path": "maps/districts/la-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2722%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:19:28.277500Z",
+      "sourceSha256": "9ec48af927f95ee5582e6a883a13829a025ce1c2b66760cce03e279b95304905",
+      "sourceBytes": 6019604,
+      "sourceFeatures": 40,
+      "outputSha256": "87b7c99e5504733078ceac0c381446d6ee80e4331b591425b3aa674a615d8d9e",
+      "bytes": 366766,
+      "coverage": {
+        "districtCount": 39,
+        "ordinaryDistrictCount": 39,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 39,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": [
+          "22ZZZ"
+        ]
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "22033",
+          "22034"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 42,
+        "sourceRepairedPolygonParts": 43,
+        "displayPolygonParts": 43,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "LA",
+      "chamberId": "LA-lower",
+      "path": "maps/districts/la-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2722%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:19:59.541462Z",
+      "sourceSha256": "7ab289c18381bf17e964b98e864d29b6341ce5440be57fb9085478027aa24303",
+      "sourceBytes": 6646249,
+      "sourceFeatures": 105,
+      "outputSha256": "9fb980d54b372eb86f5e391b06b72887efc0e3e7cfcd220c438dc8d9397dd677",
+      "bytes": 460235,
+      "coverage": {
+        "districtCount": 105,
+        "ordinaryDistrictCount": 105,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 105,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 105,
+        "sourceRepairedPolygonParts": 105,
+        "displayPolygonParts": 105,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MA",
+      "chamberId": "MA-upper",
+      "path": "maps/districts/ma-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2725%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:20:12.635705Z",
+      "sourceSha256": "62226749931cfb8952a13678e5aae2133679a27b1eafc7a2f4ca1300a5e08382",
+      "sourceBytes": 1813489,
+      "sourceFeatures": 40,
+      "outputSha256": "32b3333feb2854eab2246a703e786c7330bb35a3c5f85176bbb56f5baaa6af3d",
+      "bytes": 130647,
+      "coverage": {
+        "districtCount": 40,
+        "ordinaryDistrictCount": 40,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 40,
+        "matchedGeometryCount": 40,
+        "forecastCompatibleCount": 40,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 25.2335,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 43,
+        "sourceRepairedPolygonParts": 43,
+        "displayPolygonParts": 43,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MA",
+      "chamberId": "MA-lower",
+      "path": "maps/districts/ma-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2725%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:20:43.436944Z",
+      "sourceSha256": "93b35b4201d54d4f8bb5ac409bbfb1aa769437c3595ad105bb5140c5922ff9d1",
+      "sourceBytes": 3747643,
+      "sourceFeatures": 161,
+      "outputSha256": "0400a0481645391e47226bf00179a48c2f62aec35140e408f6f05352f572ce24",
+      "bytes": 315669,
+      "coverage": {
+        "districtCount": 160,
+        "ordinaryDistrictCount": 160,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 160,
+        "matchedGeometryCount": 160,
+        "forecastCompatibleCount": 160,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": [
+          "25ZZZ"
+        ]
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 25.2335,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 165,
+        "sourceRepairedPolygonParts": 165,
+        "displayPolygonParts": 165,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MD",
+      "chamberId": "MD-upper",
+      "path": "maps/districts/md-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2724%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:20:06.691179Z",
+      "sourceSha256": "1869c8c7fd61a5267c4fedee5ea0ee9e4002486fc802488ff73145a5e955b07e",
+      "sourceBytes": 3376562,
+      "sourceFeatures": 47,
+      "outputSha256": "9a04d778b294ce9088dc2821d78ec58955481a679f091c340379899ba591784f",
+      "bytes": 222912,
+      "coverage": {
+        "districtCount": 47,
+        "ordinaryDistrictCount": 47,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 47,
+        "matchedGeometryCount": 47,
+        "forecastCompatibleCount": 47,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 32.5623,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 47,
+        "sourceRepairedPolygonParts": 47,
+        "displayPolygonParts": 47,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MD",
+      "chamberId": "MD-lower",
+      "path": "maps/districts/md-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2724%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:20:12.272010Z",
+      "sourceSha256": "049b74d8a70633585021623d19719bd8b433ef874b94e069c8289c00319e0dce",
+      "sourceBytes": 4417277,
+      "sourceFeatures": 71,
+      "outputSha256": "c16aa23b85fa6da02ff890bd38838c69673703bd403dc9b041c4d5ea3a234e29",
+      "bytes": 303378,
+      "coverage": {
+        "districtCount": 71,
+        "ordinaryDistrictCount": 71,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 71,
+        "matchedGeometryCount": 71,
+        "forecastCompatibleCount": 71,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 32.5623,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 71,
+        "sourceRepairedPolygonParts": 71,
+        "displayPolygonParts": 71,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "ME",
+      "chamberId": "ME-upper",
+      "path": "maps/districts/me-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2723%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:19:40.342201Z",
+      "sourceSha256": "74ec2f8f20d6bfc87bf362b62e70a042cbeb8cf7f8446fc6101578de39d2ea14",
+      "sourceBytes": 3062880,
+      "sourceFeatures": 35,
+      "outputSha256": "d4881d87b9e18ea7311ca75a6ef92076f0141037e63b2a81ce1cbd475fc1265f",
+      "bytes": 122683,
+      "coverage": {
+        "districtCount": 35,
+        "ordinaryDistrictCount": 35,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 35,
+        "matchedGeometryCount": 35,
+        "forecastCompatibleCount": 35,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 44,
+        "sourceRepairedPolygonParts": 44,
+        "displayPolygonParts": 44,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "ME",
+      "chamberId": "ME-lower",
+      "path": "maps/districts/me-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2723%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:20:14.127840Z",
+      "sourceSha256": "c74fa23f2c09814bf2eb3bcbe9408e3a833b430c735392748815789421ecb9b4",
+      "sourceBytes": 5182588,
+      "sourceFeatures": 151,
+      "outputSha256": "c4f84f52ad3fde355514d419ecc3766c206fcaf6ecfe98a26e460fde35ab4e64",
+      "bytes": 258792,
+      "coverage": {
+        "districtCount": 151,
+        "ordinaryDistrictCount": 151,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 151,
+        "matchedGeometryCount": 151,
+        "forecastCompatibleCount": 151,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 163,
+        "sourceRepairedPolygonParts": 163,
+        "displayPolygonParts": 163,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MI",
+      "chamberId": "MI-upper",
+      "path": "maps/districts/mi-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2726%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:20:22.248288Z",
+      "sourceSha256": "38eb1659c0564f4ac6be9901e8f55d092bb681ffcd918873a1ab082b6764facf",
+      "sourceBytes": 1288204,
+      "sourceFeatures": 38,
+      "outputSha256": "b9a111070b2cd54f53f7657abb3024128e47abdc02fadc39a39c4e13ace44c38",
+      "bytes": 72229,
+      "coverage": {
+        "districtCount": 38,
+        "ordinaryDistrictCount": 38,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 38,
+        "matchedGeometryCount": 38,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 38,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 38,
+        "sourceRepairedPolygonParts": 38,
+        "displayPolygonParts": 38,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MI",
+      "chamberId": "MI-lower",
+      "path": "maps/districts/mi-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2726%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:20:38.586908Z",
+      "sourceSha256": "a657e35aca3f66b763564b30030d82fcecf6814422f480d8907a7374a1283c64",
+      "sourceBytes": 2239693,
+      "sourceFeatures": 110,
+      "outputSha256": "ad0e7fcea7d93772a295dc0fd81e131ccdd66720dceae992e3c98f64dee0b775",
+      "bytes": 148578,
+      "coverage": {
+        "districtCount": 110,
+        "ordinaryDistrictCount": 110,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 110,
+        "matchedGeometryCount": 110,
+        "forecastCompatibleCount": 110,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 110,
+        "sourceRepairedPolygonParts": 110,
+        "displayPolygonParts": 110,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MN",
+      "chamberId": "MN-upper",
+      "path": "maps/districts/mn-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2727%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:20:59.653409Z",
+      "sourceSha256": "111962a35e4f1e05b39edfe30182b81c4960aa7f098d2ecf266921f044c5476d",
+      "sourceBytes": 3827069,
+      "sourceFeatures": 67,
+      "outputSha256": "66273951b464fd727b340beb47bffcfa1353ad85520550cab017f8c5f2024c66",
+      "bytes": 190867,
+      "coverage": {
+        "districtCount": 67,
+        "ordinaryDistrictCount": 67,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 67,
+        "matchedGeometryCount": 67,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 67,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 67,
+        "sourceRepairedPolygonParts": 67,
+        "displayPolygonParts": 67,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MN",
+      "chamberId": "MN-lower",
+      "path": "maps/districts/mn-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2727%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:21:11.514957Z",
+      "sourceSha256": "9a5200395d14008389c7965bd3ffa5c52c949ea63792cba97762c9b411ccf971",
+      "sourceBytes": 4846360,
+      "sourceFeatures": 134,
+      "outputSha256": "0cfb2fbc6c945848879bff2dc60e8cee56c3ba0c75e1740fa608eeb969f76348",
+      "bytes": 259366,
+      "coverage": {
+        "districtCount": 134,
+        "ordinaryDistrictCount": 134,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 134,
+        "matchedGeometryCount": 134,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 134,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 134,
+        "sourceRepairedPolygonParts": 134,
+        "displayPolygonParts": 134,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MO",
+      "chamberId": "MO-upper",
+      "path": "maps/districts/mo-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2729%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:21:21.916349Z",
+      "sourceSha256": "489299f802971987b58a00f9ae849f6b7a10bcef1ed9f7bd1c13bf8829fbb5ad",
+      "sourceBytes": 2884709,
+      "sourceFeatures": 34,
+      "outputSha256": "b4faf951ee0051514111287a82e20bccec0056516b9b2f5f4225fd8220827076",
+      "bytes": 127954,
+      "coverage": {
+        "districtCount": 34,
+        "ordinaryDistrictCount": 34,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 17,
+        "matchedGeometryCount": 17,
+        "forecastCompatibleCount": 17,
+        "unmatchedGeometryCount": 17,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 34,
+        "sourceRepairedPolygonParts": 34,
+        "displayPolygonParts": 34,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MO",
+      "chamberId": "MO-lower",
+      "path": "maps/districts/mo-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2729%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:22:33.797874Z",
+      "sourceSha256": "ab75f737424b0309d03f71885a216cd599cc3095658c6c1715c95e41e579bcd3",
+      "sourceBytes": 6548689,
+      "sourceFeatures": 163,
+      "outputSha256": "0d58687c3dc726caec33c89c64765fd8357bfa87c696b9e1f40da6fca35da025",
+      "bytes": 385106,
+      "coverage": {
+        "districtCount": 163,
+        "ordinaryDistrictCount": 163,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 163,
+        "matchedGeometryCount": 163,
+        "forecastCompatibleCount": 163,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 164,
+        "sourceRepairedPolygonParts": 164,
+        "displayPolygonParts": 164,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MS",
+      "chamberId": "MS-upper",
+      "path": "maps/districts/ms-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2728%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:21:40.163140Z",
+      "sourceSha256": "0d05ce470f82a61cee10f64c8dcd8b948c99742430b3da336d411af243d90f2e",
+      "sourceBytes": 5788983,
+      "sourceFeatures": 52,
+      "outputSha256": "6dad6f6d461753f0d1ad2484389d92d4a1b3d4fab2130ec5abbf6866e24a6717",
+      "bytes": 258454,
+      "coverage": {
+        "districtCount": 52,
+        "ordinaryDistrictCount": 52,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 52,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 52,
+        "sourceRepairedPolygonParts": 52,
+        "displayPolygonParts": 52,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MS",
+      "chamberId": "MS-lower",
+      "path": "maps/districts/ms-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2728%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:22:28.760663Z",
+      "sourceSha256": "65c559dfd74705c824999fa0458dc0b15c06678941892a5c4a83f1709ad59a26",
+      "sourceBytes": 8939559,
+      "sourceFeatures": 122,
+      "outputSha256": "015ee8fca9b059edbdce19038c83f44681467824def921da74f61608ee92fbef",
+      "bytes": 419361,
+      "coverage": {
+        "districtCount": 122,
+        "ordinaryDistrictCount": 122,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 122,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 122,
+        "sourceRepairedPolygonParts": 122,
+        "displayPolygonParts": 122,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MT",
+      "chamberId": "MT-upper",
+      "path": "maps/districts/mt-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2730%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:22:37.795529Z",
+      "sourceSha256": "6de8c147ac88931c503a267c623c94b0e7e040e6e82101cdbf51ff2f7ae62b17",
+      "sourceBytes": 5893857,
+      "sourceFeatures": 50,
+      "outputSha256": "31ed10a178868ae66a5cae2d63c527cbc39243301432e1c1dcd012590d0729e5",
+      "bytes": 342265,
+      "coverage": {
+        "districtCount": 50,
+        "ordinaryDistrictCount": 50,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 25,
+        "matchedGeometryCount": 25,
+        "forecastCompatibleCount": 25,
+        "unmatchedGeometryCount": 25,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 50,
+        "sourceRepairedPolygonParts": 50,
+        "displayPolygonParts": 50,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "MT",
+      "chamberId": "MT-lower",
+      "path": "maps/districts/mt-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2730%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:22:47.574759Z",
+      "sourceSha256": "478b6737a543bb716105ad928a68df068c925b8f1da155cfc3acef076b275fc2",
+      "sourceBytes": 7359756,
+      "sourceFeatures": 100,
+      "outputSha256": "d671974ef713197c90b0b6ec11330e14d5ac2c55cbc05a50c627d94d19e148fd",
+      "bytes": 437096,
+      "coverage": {
+        "districtCount": 100,
+        "ordinaryDistrictCount": 100,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 100,
+        "matchedGeometryCount": 100,
+        "forecastCompatibleCount": 100,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 100,
+        "sourceRepairedPolygonParts": 100,
+        "displayPolygonParts": 100,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NC",
+      "chamberId": "NC-upper",
+      "path": "maps/districts/nc-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2737%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:25:13.996742Z",
+      "sourceSha256": "655e21a00635dc7336752fce0f2f8377eb9c889d011ed449c3ff5e8aa387ad5f",
+      "sourceBytes": 7471123,
+      "sourceFeatures": 50,
+      "outputSha256": "037f77eaffb2c0899575921a76078d04e92226f6793f2a6e86504f064c64608a",
+      "bytes": 302597,
+      "coverage": {
+        "districtCount": 50,
+        "ordinaryDistrictCount": 50,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 50,
+        "matchedGeometryCount": 50,
+        "forecastCompatibleCount": 50,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 50,
+        "sourceRepairedPolygonParts": 50,
+        "displayPolygonParts": 50,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NC",
+      "chamberId": "NC-lower",
+      "path": "maps/districts/nc-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2737%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:25:33.588861Z",
+      "sourceSha256": "cb1dd1fc09df3e897abbf41e3a9fa1d2672f6310abbd13d861a92c5a41f6f261",
+      "sourceBytes": 10438707,
+      "sourceFeatures": 120,
+      "outputSha256": "5d812de9c55f1b9e28dd7b72799634673eddf49b39ab4037c3f6ce47c51bc5b5",
+      "bytes": 448402,
+      "coverage": {
+        "districtCount": 120,
+        "ordinaryDistrictCount": 120,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 120,
+        "matchedGeometryCount": 120,
+        "forecastCompatibleCount": 120,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 120,
+        "sourceRepairedPolygonParts": 120,
+        "displayPolygonParts": 120,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "ND",
+      "chamberId": "ND-upper",
+      "path": "maps/districts/nd-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2738%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:23:06.625448Z",
+      "sourceSha256": "5e200e67a2ecf305b1078b65e740a8f834bbe44ecbdbf4ce9b842b47df3d7234",
+      "sourceBytes": 2204959,
+      "sourceFeatures": 47,
+      "outputSha256": "bb34ee1fe2b9c4159e13bda57051857508d070114dd7cc9275443d01c52b52a9",
+      "bytes": 104984,
+      "coverage": {
+        "districtCount": 47,
+        "ordinaryDistrictCount": 47,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 24,
+        "matchedGeometryCount": 24,
+        "forecastCompatibleCount": 24,
+        "unmatchedGeometryCount": 23,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 48.3408,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 47,
+        "sourceRepairedPolygonParts": 47,
+        "displayPolygonParts": 47,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "ND",
+      "chamberId": "ND-lower",
+      "path": "maps/districts/nd-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2738%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:23:13.822117Z",
+      "sourceSha256": "5b51479091eba2e5c7bfae8f5eaaaf0c70b825a0168d7af054af3754eb09b832",
+      "sourceBytes": 2219380,
+      "sourceFeatures": 48,
+      "outputSha256": "f7f1671e108e12206f589d51d560bd35fe8911cf0ffe9cbb1e41c7a5add6d941",
+      "bytes": 105671,
+      "coverage": {
+        "districtCount": 48,
+        "ordinaryDistrictCount": 48,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 24,
+        "matchedGeometryCount": 24,
+        "forecastCompatibleCount": 24,
+        "unmatchedGeometryCount": 24,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 48.3408,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 48,
+        "sourceRepairedPolygonParts": 48,
+        "displayPolygonParts": 48,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NE",
+      "chamberId": "NE-upper",
+      "path": "maps/districts/ne-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2731%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:22:54.400772Z",
+      "sourceSha256": "4129bb5b8312a34b1cea01c146f2b83d521a6e080d9b929e4dd8bc103387f546",
+      "sourceBytes": 1862012,
+      "sourceFeatures": 49,
+      "outputSha256": "6f2143b209e9103284d8d39715a8550e4792a88a9e000e00bb812dbb3c23f3b1",
+      "bytes": 66590,
+      "coverage": {
+        "districtCount": 49,
+        "ordinaryDistrictCount": 49,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 24,
+        "matchedGeometryCount": 24,
+        "forecastCompatibleCount": 24,
+        "unmatchedGeometryCount": 25,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 49,
+        "sourceRepairedPolygonParts": 49,
+        "displayPolygonParts": 49,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NH",
+      "chamberId": "NH-upper",
+      "path": "maps/districts/nh-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2733%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:22:45.417802Z",
+      "sourceSha256": "759fb15d6d5f800d6b71e96ce8f286699ed872d220a3df4a0b6298ac0d512ae6",
+      "sourceBytes": 1104291,
+      "sourceFeatures": 25,
+      "outputSha256": "e52347bed83e0769c85fc07c66744ee6f2fce565ed00d93323253b7a9d056d31",
+      "bytes": 66950,
+      "coverage": {
+        "districtCount": 24,
+        "ordinaryDistrictCount": 24,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 24,
+        "matchedGeometryCount": 24,
+        "forecastCompatibleCount": 24,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": [
+          "33ZZZ"
+        ]
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 36.2417,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 24,
+        "sourceRepairedPolygonParts": 24,
+        "displayPolygonParts": 24,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NH",
+      "chamberId": "NH-lower",
+      "path": "maps/districts/nh-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2733%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:22:48.803804Z",
+      "sourceSha256": "2ed7b9b774f156343669517b2c5ecbebbc6ec1a763fd8f66873e306e48246b4a",
+      "sourceBytes": 2148001,
+      "sourceFeatures": 165,
+      "outputSha256": "316d9e5e9688580b907227eeeda7ca326526e0a8e339c159baada985b06e6f67",
+      "bytes": 233451,
+      "coverage": {
+        "districtCount": 203,
+        "ordinaryDistrictCount": 164,
+        "floterialDistrictCount": 39,
+        "modelRecordCount": 203,
+        "matchedGeometryCount": 203,
+        "forecastCompatibleCount": 203,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": [
+          "33ZZZ"
+        ]
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 36.2417,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 165,
+        "sourceRepairedPolygonParts": 165,
+        "displayPolygonParts": 165,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NJ",
+      "chamberId": "NJ-upper",
+      "path": "maps/districts/nj-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2734%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:23:35.305892Z",
+      "sourceSha256": "e8414a184f614532676b42476a392c6ae785ef0f615c40d3d188ec713a86537a",
+      "sourceBytes": 3648044,
+      "sourceFeatures": 40,
+      "outputSha256": "cd825d908c48d0212f89590b33782af2a4eeda6789bde05ef23090a3d114bd2c",
+      "bytes": 152593,
+      "coverage": {
+        "districtCount": 40,
+        "ordinaryDistrictCount": 40,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 40,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 35.65,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "34017",
+          "34018"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 41,
+        "sourceRepairedPolygonParts": 41,
+        "displayPolygonParts": 41,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NJ",
+      "chamberId": "NJ-lower",
+      "path": "maps/districts/nj-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2734%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:23:33.988887Z",
+      "sourceSha256": "3e02df3352878502fc320a5c00c1b1a06cb5d4bd1be9769743b0c2c39816bbc4",
+      "sourceBytes": 3647893,
+      "sourceFeatures": 40,
+      "outputSha256": "9724791454bd7c8c22225e6751199d40c82a504d95e30ffc87b05d90e77926db",
+      "bytes": 152442,
+      "coverage": {
+        "districtCount": 40,
+        "ordinaryDistrictCount": 40,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 40,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 35.65,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "34017",
+          "34018"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 41,
+        "sourceRepairedPolygonParts": 41,
+        "displayPolygonParts": 41,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NM",
+      "chamberId": "NM-upper",
+      "path": "maps/districts/nm-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2735%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:23:53.943788Z",
+      "sourceSha256": "903024a8451d34c02e5c3a23108db1ed5eb22faef3df006e18a854169416448a",
+      "sourceBytes": 4894084,
+      "sourceFeatures": 42,
+      "outputSha256": "92d6ae4b6a08532db2cf456d2b2973f705f349542b9f7c9de039c1f76fd0fb54",
+      "bytes": 233175,
+      "coverage": {
+        "districtCount": 42,
+        "ordinaryDistrictCount": 42,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 42,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 43,
+        "sourceRepairedPolygonParts": 43,
+        "displayPolygonParts": 43,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NM",
+      "chamberId": "NM-lower",
+      "path": "maps/districts/nm-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2735%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:24:12.911849Z",
+      "sourceSha256": "27659f8de95d32b10645fb7a3a5f6100161b6e827182ad0f73bb4c1572f8a343",
+      "sourceBytes": 5728408,
+      "sourceFeatures": 70,
+      "outputSha256": "4b3253ef01cc4a38b96c30ce60b72ee59c7bd78dfcd5e416d3d471cc644be647",
+      "bytes": 278810,
+      "coverage": {
+        "districtCount": 70,
+        "ordinaryDistrictCount": 70,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 70,
+        "matchedGeometryCount": 70,
+        "forecastCompatibleCount": 70,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 70,
+        "sourceRepairedPolygonParts": 70,
+        "displayPolygonParts": 70,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NV",
+      "chamberId": "NV-upper",
+      "path": "maps/districts/nv-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2732%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:22:54.584430Z",
+      "sourceSha256": "f69c5c4823743a58422be67511feaed1d5dbc8b7e3b734cd64262df3da441524",
+      "sourceBytes": 1280820,
+      "sourceFeatures": 21,
+      "outputSha256": "3901a1eeb67a70a4e029dff87c90e89134249746fb86ddf72ffce2656d6ca26c",
+      "bytes": 66068,
+      "coverage": {
+        "districtCount": 21,
+        "ordinaryDistrictCount": 21,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 11,
+        "matchedGeometryCount": 11,
+        "forecastCompatibleCount": 11,
+        "unmatchedGeometryCount": 10,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 21,
+        "sourceRepairedPolygonParts": 21,
+        "displayPolygonParts": 21,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NV",
+      "chamberId": "NV-lower",
+      "path": "maps/districts/nv-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2732%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:22:57.722683Z",
+      "sourceSha256": "42b86de0176d81c86a974a76f3a9f802338a91ddc1a845050a25b16b5bd42ae9",
+      "sourceBytes": 1663608,
+      "sourceFeatures": 42,
+      "outputSha256": "dbbfd8b1dba947bb3309d03e9c3398427c71497b569085b03bad5a164a0d75ab",
+      "bytes": 88883,
+      "coverage": {
+        "districtCount": 42,
+        "ordinaryDistrictCount": 42,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 42,
+        "matchedGeometryCount": 42,
+        "forecastCompatibleCount": 42,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 42,
+        "sourceRepairedPolygonParts": 42,
+        "displayPolygonParts": 42,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NY",
+      "chamberId": "NY-upper",
+      "path": "maps/districts/ny-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2736%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:23:54.068918Z",
+      "sourceSha256": "f49c5cdef144cdf3945e429300b6493a270acaf10c229ad157713c7031f460e1",
+      "sourceBytes": 2241326,
+      "sourceFeatures": 63,
+      "outputSha256": "baac67f6d1eda3317f59d23a6d31170c647b89a96ed2aeaff03fbcc42190369a",
+      "bytes": 163677,
+      "coverage": {
+        "districtCount": 63,
+        "ordinaryDistrictCount": 63,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 63,
+        "matchedGeometryCount": 63,
+        "forecastCompatibleCount": 63,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 65,
+        "sourceRepairedPolygonParts": 65,
+        "displayPolygonParts": 65,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "NY",
+      "chamberId": "NY-lower",
+      "path": "maps/districts/ny-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2736%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:24:15.758049Z",
+      "sourceSha256": "6f8b5bfcb1d9d59070c809e236fa0be7adb2a03e0640e67836d5127ba7e7a9eb",
+      "sourceBytes": 3727298,
+      "sourceFeatures": 150,
+      "outputSha256": "6549432c023880ef292a8eef1d9cfcec48ebc5d73ca0b6d91595611d1ed77d05",
+      "bytes": 274000,
+      "coverage": {
+        "districtCount": 150,
+        "ordinaryDistrictCount": 150,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 150,
+        "matchedGeometryCount": 150,
+        "forecastCompatibleCount": 150,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 152,
+        "sourceRepairedPolygonParts": 152,
+        "displayPolygonParts": 152,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "OH",
+      "chamberId": "OH-upper",
+      "path": "maps/districts/oh-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2739%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:24:37.756338Z",
+      "sourceSha256": "91ebfb09b6aa7a99b35e0cc5a1d421dc3431d290423c072367c1fdb5c6e4f9b3",
+      "sourceBytes": 2502304,
+      "sourceFeatures": 33,
+      "outputSha256": "9ce99fb7e5d9df545eb8bfa2b710389aa65708b4a99cd44ab418ef3e5a7fd084",
+      "bytes": 112866,
+      "coverage": {
+        "districtCount": 33,
+        "ordinaryDistrictCount": 33,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 17,
+        "matchedGeometryCount": 17,
+        "forecastCompatibleCount": 17,
+        "unmatchedGeometryCount": 16,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 33,
+        "sourceRepairedPolygonParts": 33,
+        "displayPolygonParts": 33,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "OH",
+      "chamberId": "OH-lower",
+      "path": "maps/districts/oh-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2739%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:24:56.666525Z",
+      "sourceSha256": "7c44de71a72f00f8d64606c68f59c4edc5c145a1becae37a417c5890c98da1c7",
+      "sourceBytes": 4400136,
+      "sourceFeatures": 99,
+      "outputSha256": "6c831370f4ea3dcfaedd24b71d5059d66b2816fa4a4eb6c99f300de22a479925",
+      "bytes": 245916,
+      "coverage": {
+        "districtCount": 99,
+        "ordinaryDistrictCount": 99,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 99,
+        "matchedGeometryCount": 99,
+        "forecastCompatibleCount": 99,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 99,
+        "sourceRepairedPolygonParts": 99,
+        "displayPolygonParts": 99,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "OK",
+      "chamberId": "OK-upper",
+      "path": "maps/districts/ok-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2740%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:25:16.563316Z",
+      "sourceSha256": "ea598997a19d6fe16f64193a37d177d88dd6722b70f7df8d24976441612ad388",
+      "sourceBytes": 3058034,
+      "sourceFeatures": 48,
+      "outputSha256": "70be62b959f387e79ceb57379560d544177f8c7cbec1ed7ea4058bd714cbe5bf",
+      "bytes": 125541,
+      "coverage": {
+        "districtCount": 48,
+        "ordinaryDistrictCount": 48,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 24,
+        "matchedGeometryCount": 24,
+        "forecastCompatibleCount": 24,
+        "unmatchedGeometryCount": 24,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 48,
+        "sourceRepairedPolygonParts": 48,
+        "displayPolygonParts": 48,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "OK",
+      "chamberId": "OK-lower",
+      "path": "maps/districts/ok-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2740%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:25:38.499913Z",
+      "sourceSha256": "bde92db4573f9977d4bfa255127f8112006ccc95d5495055a61adeacb8418492",
+      "sourceBytes": 4236056,
+      "sourceFeatures": 101,
+      "outputSha256": "ad38e6c8d3ceb157449eb52992690dd3d051672838666eb9cf0719a3f36d28c4",
+      "bytes": 187783,
+      "coverage": {
+        "districtCount": 101,
+        "ordinaryDistrictCount": 101,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 101,
+        "matchedGeometryCount": 101,
+        "forecastCompatibleCount": 101,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 101,
+        "sourceRepairedPolygonParts": 101,
+        "displayPolygonParts": 101,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "OR",
+      "chamberId": "OR-upper",
+      "path": "maps/districts/or-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2741%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:25:56.702761Z",
+      "sourceSha256": "2233a35c0997efd7c3bc7b2c1c948c6fae295d42a367adc90d19b2cfd4a0c790",
+      "sourceBytes": 3322360,
+      "sourceFeatures": 30,
+      "outputSha256": "66c346024184ec501ef4a957336edcdad112ddb457629fcbd8c6e9f38e1fd718",
+      "bytes": 161430,
+      "coverage": {
+        "districtCount": 30,
+        "ordinaryDistrictCount": 30,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 15,
+        "matchedGeometryCount": 15,
+        "forecastCompatibleCount": 15,
+        "unmatchedGeometryCount": 15,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 30,
+        "sourceRepairedPolygonParts": 30,
+        "displayPolygonParts": 30,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "OR",
+      "chamberId": "OR-lower",
+      "path": "maps/districts/or-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2741%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:25:59.457365Z",
+      "sourceSha256": "eb2712ad757b2467ed422dcc5ee610816e0aaeb7a509aa00b37be9b487a36d9c",
+      "sourceBytes": 4582083,
+      "sourceFeatures": 60,
+      "outputSha256": "7395dad53f30a4a4dbae311c443e4bccc679fb81248d986fb53ee1fdac1ed2d9",
+      "bytes": 229656,
+      "coverage": {
+        "districtCount": 60,
+        "ordinaryDistrictCount": 60,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 60,
+        "matchedGeometryCount": 60,
+        "forecastCompatibleCount": 60,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 60,
+        "sourceRepairedPolygonParts": 60,
+        "displayPolygonParts": 60,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "PA",
+      "chamberId": "PA-upper",
+      "path": "maps/districts/pa-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2742%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:26:07.819448Z",
+      "sourceSha256": "36f1d5258ec9b07e78647da3b6167ae766f96650910a2ce47fd07ac5a3a39275",
+      "sourceBytes": 3686379,
+      "sourceFeatures": 50,
+      "outputSha256": "51e7092f1dace09d5fe640c61d30baf0dd7a961281b75fd840ca82ec1e917c9d",
+      "bytes": 189029,
+      "coverage": {
+        "districtCount": 50,
+        "ordinaryDistrictCount": 50,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 25,
+        "matchedGeometryCount": 25,
+        "forecastCompatibleCount": 25,
+        "unmatchedGeometryCount": 25,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 41.287,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "42013",
+          "42019"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 61,
+        "sourceRepairedPolygonParts": 61,
+        "displayPolygonParts": 61,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "PA",
+      "chamberId": "PA-lower",
+      "path": "maps/districts/pa-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2742%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:26:41.684144Z",
+      "sourceSha256": "ecb99b17413427c83743105f6d0ce2a4aba5cba6de452ce928b185ea699192e7",
+      "sourceBytes": 7804770,
+      "sourceFeatures": 203,
+      "outputSha256": "be5afb2797bda83c2b5a4a5b358674de752aa0db42691ddf766d976b1c725474",
+      "bytes": 449266,
+      "coverage": {
+        "districtCount": 203,
+        "ordinaryDistrictCount": 203,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 203,
+        "matchedGeometryCount": 203,
+        "forecastCompatibleCount": 203,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 41.287,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "42013"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 213,
+        "sourceRepairedPolygonParts": 213,
+        "displayPolygonParts": 213,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "RI",
+      "chamberId": "RI-upper",
+      "path": "maps/districts/ri-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2744%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:26:07.820448Z",
+      "sourceSha256": "d893c1806986cfa3dd5f5f6627483bb2059a8b41fdfa79994d693c8a3093fde6",
+      "sourceBytes": 901950,
+      "sourceFeatures": 38,
+      "outputSha256": "f3f2e436f351607f7778eee4fecbc6c7892a5c4a00c3517e990e384856692781",
+      "bytes": 90301,
+      "coverage": {
+        "districtCount": 38,
+        "ordinaryDistrictCount": 38,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 38,
+        "matchedGeometryCount": 38,
+        "forecastCompatibleCount": 38,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 12.8139,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 39,
+        "sourceRepairedPolygonParts": 39,
+        "displayPolygonParts": 39,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "RI",
+      "chamberId": "RI-lower",
+      "path": "maps/districts/ri-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2744%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:26:08.549660Z",
+      "sourceSha256": "71892676c7d96c50285d071d9143379481c7ded48cdce06bc7a3b799d637e7a8",
+      "sourceBytes": 1376795,
+      "sourceFeatures": 75,
+      "outputSha256": "8330b144538aa27d2d7629920ee113e37081d4bfb1c6906e1e5e6257ec8b2dbc",
+      "bytes": 143001,
+      "coverage": {
+        "districtCount": 75,
+        "ordinaryDistrictCount": 75,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 75,
+        "matchedGeometryCount": 75,
+        "forecastCompatibleCount": 75,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 12.8139,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 76,
+        "sourceRepairedPolygonParts": 76,
+        "displayPolygonParts": 76,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "SC",
+      "chamberId": "SC-upper",
+      "path": "maps/districts/sc-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2745%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:26:50.967507Z",
+      "sourceSha256": "c922bc277b4d3ab9fc8aa705558eb3ae9c5e213d85feb75800869c0ddab29f4d",
+      "sourceBytes": 5769161,
+      "sourceFeatures": 46,
+      "outputSha256": "9c40e522fb99049b9e03102b7ca4476f20d1f40b283d3ac1967e4ba3aa7abdf6",
+      "bytes": 335008,
+      "coverage": {
+        "districtCount": 46,
+        "ordinaryDistrictCount": 46,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 46,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 44.7529,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 46,
+        "sourceRepairedPolygonParts": 46,
+        "displayPolygonParts": 46,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "SC",
+      "chamberId": "SC-lower",
+      "path": "maps/districts/sc-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2745%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:27:11.503885Z",
+      "sourceSha256": "6bd1874f39795731b1c367de739f2526e3b4bf4213ade5942ed03ae17d35f9eb",
+      "sourceBytes": 7887929,
+      "sourceFeatures": 124,
+      "outputSha256": "ec9e9ebbc05599d93aee65b0d900043f95eab6639e55dfa305682fe462c187ab",
+      "bytes": 490532,
+      "coverage": {
+        "districtCount": 124,
+        "ordinaryDistrictCount": 124,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 124,
+        "matchedGeometryCount": 124,
+        "forecastCompatibleCount": 124,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 44.7529,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 124,
+        "sourceRepairedPolygonParts": 124,
+        "displayPolygonParts": 124,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "SD",
+      "chamberId": "SD-upper",
+      "path": "maps/districts/sd-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2746%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:26:37.401806Z",
+      "sourceSha256": "393b0aec88baeaa327c1c277697c837622809f1d42c2d0cd80136e8f4e6eb812",
+      "sourceBytes": 3175466,
+      "sourceFeatures": 35,
+      "outputSha256": "fe0acd7cf0748c997f47df274dc55d65196bc6227a027db2bf476ed44cedf966",
+      "bytes": 96763,
+      "coverage": {
+        "districtCount": 35,
+        "ordinaryDistrictCount": 35,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 35,
+        "matchedGeometryCount": 35,
+        "forecastCompatibleCount": 35,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 35,
+        "sourceRepairedPolygonParts": 35,
+        "displayPolygonParts": 35,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "SD",
+      "chamberId": "SD-lower",
+      "path": "maps/districts/sd-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2746%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:26:59.488731Z",
+      "sourceSha256": "965876f8fa54dec25d4590b751477d57f7dcf13be3f52bea417342d05365b129",
+      "sourceBytes": 3247388,
+      "sourceFeatures": 37,
+      "outputSha256": "7e726f86920e3845e747670918e32c48db9338b9b39e71cf67f1217e7565a7b4",
+      "bytes": 99627,
+      "coverage": {
+        "districtCount": 37,
+        "ordinaryDistrictCount": 37,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 37,
+        "matchedGeometryCount": 37,
+        "forecastCompatibleCount": 33,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 37,
+        "sourceRepairedPolygonParts": 37,
+        "displayPolygonParts": 37,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "TN",
+      "chamberId": "TN-upper",
+      "path": "maps/districts/tn-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2747%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:27:23.547109Z",
+      "sourceSha256": "82233c387f4c4bef9493518c00a0eb80a6ee591ea854112f72a193bceb15c0a4",
+      "sourceBytes": 4602110,
+      "sourceFeatures": 33,
+      "outputSha256": "4df0f0290e3deb932dd4d7732f7705f4d0c890f72c503326752a7c81f120a8ff",
+      "bytes": 254324,
+      "coverage": {
+        "districtCount": 33,
+        "ordinaryDistrictCount": 33,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 17,
+        "matchedGeometryCount": 17,
+        "forecastCompatibleCount": 17,
+        "unmatchedGeometryCount": 16,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "47012"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 37,
+        "sourceRepairedPolygonParts": 37,
+        "displayPolygonParts": 37,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "TN",
+      "chamberId": "TN-lower",
+      "path": "maps/districts/tn-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2747%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:28:25.908591Z",
+      "sourceSha256": "8ff29ba559d93a68f842e4eb25c1c22269c3895e1edf3d0ff5acdc22ef0e98f6",
+      "sourceBytes": 9254677,
+      "sourceFeatures": 99,
+      "outputSha256": "e07d47e361a2a3dfee3146e671908ca572b39ff04c79e6970f1e33c7556ad08d",
+      "bytes": 498418,
+      "coverage": {
+        "districtCount": 99,
+        "ordinaryDistrictCount": 99,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 99,
+        "matchedGeometryCount": 99,
+        "forecastCompatibleCount": 99,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "47032"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 103,
+        "sourceRepairedPolygonParts": 103,
+        "displayPolygonParts": 103,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "TX",
+      "chamberId": "TX-upper",
+      "path": "maps/districts/tx-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2748%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:28:15.724704Z",
+      "sourceSha256": "b78959678c0aae8f15d7d7c1e18c5b847980d2945430ab5edaf1dcce17fe4d92",
+      "sourceBytes": 8218530,
+      "sourceFeatures": 31,
+      "outputSha256": "86c5d1916ed548cf5a39537f7478d3f61d58c15e64382870c9355ff17e7266bd",
+      "bytes": 463103,
+      "coverage": {
+        "districtCount": 31,
+        "ordinaryDistrictCount": 31,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 16,
+        "matchedGeometryCount": 16,
+        "forecastCompatibleCount": 16,
+        "unmatchedGeometryCount": 15,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 31,
+        "sourceRepairedPolygonParts": 31,
+        "displayPolygonParts": 31,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "TX",
+      "chamberId": "TX-lower",
+      "path": "maps/districts/tx-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2748%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:29:24.266664Z",
+      "sourceSha256": "ef31991749bc77f0e71a36b1214996f64abeadf4082f195dddcae1fc68ad6eba",
+      "sourceBytes": 13016524,
+      "sourceFeatures": 150,
+      "outputSha256": "8181eb33120817dd6705327d06b9a8b1175431a2b69c466d17fb979b654e928b",
+      "bytes": 764072,
+      "coverage": {
+        "districtCount": 150,
+        "ordinaryDistrictCount": 150,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 150,
+        "matchedGeometryCount": 150,
+        "forecastCompatibleCount": 150,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 150,
+        "sourceRepairedPolygonParts": 150,
+        "displayPolygonParts": 150,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "UT",
+      "chamberId": "UT-upper",
+      "path": "maps/districts/ut-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2749%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:28:01.779821Z",
+      "sourceSha256": "9c3a34b10257d31e0728ae31bbcc75e47423cfa0ba8ea0d05552667dc4dd00a9",
+      "sourceBytes": 2925735,
+      "sourceFeatures": 29,
+      "outputSha256": "590e610f6beb69b44c491711339bbd227741278bf3882670f8ce6aa74c3559e1",
+      "bytes": 131896,
+      "coverage": {
+        "districtCount": 29,
+        "ordinaryDistrictCount": 29,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 15,
+        "matchedGeometryCount": 15,
+        "forecastCompatibleCount": 15,
+        "unmatchedGeometryCount": 14,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 29,
+        "sourceRepairedPolygonParts": 29,
+        "displayPolygonParts": 29,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "UT",
+      "chamberId": "UT-lower",
+      "path": "maps/districts/ut-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2749%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:28:37.250316Z",
+      "sourceSha256": "39f121a1971a3fccff439c438951b892dd61c8e95e31d403c35dadcc56b6ac9e",
+      "sourceBytes": 3820081,
+      "sourceFeatures": 75,
+      "outputSha256": "14cc22127c01693f469362e2f75540ff28fecc2df7fa70af0ab13522bbc4f5a7",
+      "bytes": 192106,
+      "coverage": {
+        "districtCount": 75,
+        "ordinaryDistrictCount": 75,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 75,
+        "matchedGeometryCount": 75,
+        "forecastCompatibleCount": 75,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 75,
+        "sourceRepairedPolygonParts": 75,
+        "displayPolygonParts": 75,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "VA",
+      "chamberId": "VA-upper",
+      "path": "maps/districts/va-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2751%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:29:18.514939Z",
+      "sourceSha256": "8b5a7df473beae2f9b7da0442dbd22d940e37172f1a1cc1cedd5838f1aa656a2",
+      "sourceBytes": 6541459,
+      "sourceFeatures": 40,
+      "outputSha256": "a4c2d03770c755469666546ef92abfc3a9f65d3b16246822cfdab1cf973f3aee",
+      "bytes": 250690,
+      "coverage": {
+        "districtCount": 40,
+        "ordinaryDistrictCount": 40,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 40,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 41,
+        "sourceRepairedPolygonParts": 41,
+        "displayPolygonParts": 41,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "VA",
+      "chamberId": "VA-lower",
+      "path": "maps/districts/va-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2751%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:30:10.967685Z",
+      "sourceSha256": "da4fa1d4063c21683c01d294eb7b65ee8b0c4a7a72a3033fe87abe010210fe5e",
+      "sourceBytes": 10248698,
+      "sourceFeatures": 100,
+      "outputSha256": "70d2050036cd4da991a0d113004dae9c6de81faa9679a8a2c06295761f5452ad",
+      "bytes": 426800,
+      "coverage": {
+        "districtCount": 100,
+        "ordinaryDistrictCount": 100,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 0,
+        "matchedGeometryCount": 0,
+        "forecastCompatibleCount": 0,
+        "unmatchedGeometryCount": 100,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 100,
+        "sourceRepairedPolygonParts": 100,
+        "displayPolygonParts": 100,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "VT",
+      "chamberId": "VT-upper",
+      "path": "maps/districts/vt-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2750%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:23:11.858451Z",
+      "sourceSha256": "2efa569cfa8f26b382ffba13d0a10fb1b1dc1aa2680d8ec1e4c72825166dcf24",
+      "sourceBytes": 620228,
+      "sourceFeatures": 16,
+      "outputSha256": "37f1eef2b66a00b0048cfae63b970c54830b86d48f9a805fd93b9caeb803b944",
+      "bytes": 47669,
+      "coverage": {
+        "districtCount": 16,
+        "ordinaryDistrictCount": 16,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 16,
+        "matchedGeometryCount": 16,
+        "forecastCompatibleCount": 16,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 31.817,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 16,
+        "sourceRepairedPolygonParts": 16,
+        "displayPolygonParts": 16,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "VT",
+      "chamberId": "VT-lower",
+      "path": "maps/districts/vt-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2750%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:23:28.440432Z",
+      "sourceSha256": "d61baaef0a3303e358e3243a1a3fc2bd3ad5481ee6fdbbe80e84793cc6de8d48",
+      "sourceBytes": 1427530,
+      "sourceFeatures": 109,
+      "outputSha256": "92c82b4abb54d256026f4abde144e58b793cbbc9a01eeff18174e901b53da14e",
+      "bytes": 128977,
+      "coverage": {
+        "districtCount": 109,
+        "ordinaryDistrictCount": 109,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 109,
+        "matchedGeometryCount": 109,
+        "forecastCompatibleCount": 109,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 31.817,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 110,
+        "sourceRepairedPolygonParts": 110,
+        "displayPolygonParts": 110,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "WA",
+      "chamberId": "WA-upper",
+      "path": "maps/districts/wa-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2753%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:23:52.709056Z",
+      "sourceSha256": "e673192d1221bcb0cb7431eae93896a046c12568efa337a52428336ae80af1ee",
+      "sourceBytes": 4015299,
+      "sourceFeatures": 49,
+      "outputSha256": "f8b7f6d0e3ebd206bf8cbae378e14e0cc52efb224d0691234bf68c7835d74117",
+      "bytes": 243915,
+      "coverage": {
+        "districtCount": 49,
+        "ordinaryDistrictCount": 49,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 24,
+        "matchedGeometryCount": 24,
+        "forecastCompatibleCount": 24,
+        "unmatchedGeometryCount": 25,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 50,
+        "sourceRepairedPolygonParts": 50,
+        "displayPolygonParts": 50,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "WA",
+      "chamberId": "WA-lower",
+      "path": "maps/districts/wa-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2753%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:23:55.929186Z",
+      "sourceSha256": "60d7840dcbafbae25d5c548201b4f64f0c8036e2d0b874dd8a62be6ce0307132",
+      "sourceBytes": 4015250,
+      "sourceFeatures": 49,
+      "outputSha256": "6addf7a3e195d0542b278d73deafb88fe839e9deaa151d966809fd35a6c7aba4",
+      "bytes": 243969,
+      "coverage": {
+        "districtCount": 49,
+        "ordinaryDistrictCount": 49,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 98,
+        "matchedGeometryCount": 49,
+        "forecastCompatibleCount": 49,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 50,
+        "sourceRepairedPolygonParts": 50,
+        "displayPolygonParts": 50,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "WI",
+      "chamberId": "WI-upper",
+      "path": "maps/districts/wi-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2755%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:30:07.951093Z",
+      "sourceSha256": "7812313f6bb2a08c2f44a74fe94610363277c668547fc94d76e2b5ef66a698c2",
+      "sourceBytes": 6314422,
+      "sourceFeatures": 34,
+      "outputSha256": "86fc05861ef837648d6e36a2b6bb0f835c021f6a0ac0c311791fd01b196060e7",
+      "bytes": 146884,
+      "coverage": {
+        "districtCount": 33,
+        "ordinaryDistrictCount": 33,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 17,
+        "matchedGeometryCount": 17,
+        "forecastCompatibleCount": 17,
+        "unmatchedGeometryCount": 16,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": [
+          "55ZZZ"
+        ]
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 80,
+        "sourceRepairedPolygonParts": 80,
+        "displayPolygonParts": 79,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "WI",
+      "chamberId": "WI-lower",
+      "path": "maps/districts/wi-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2755%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:30:20.296066Z",
+      "sourceSha256": "58854a0efa83209cdcb477babab4e1b1b8302a75d56c4472cfb634c73e174f69",
+      "sourceBytes": 7618629,
+      "sourceFeatures": 100,
+      "outputSha256": "7cb8ff8086334455b4fe7504dbfac0338cc2d9f5ad062fa32ccd6874649f8fe9",
+      "bytes": 221140,
+      "coverage": {
+        "districtCount": 99,
+        "ordinaryDistrictCount": 99,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 99,
+        "matchedGeometryCount": 99,
+        "forecastCompatibleCount": 99,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": [
+          "55ZZZ"
+        ]
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 146,
+        "sourceRepairedPolygonParts": 146,
+        "displayPolygonParts": 145,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "WV",
+      "chamberId": "WV-upper",
+      "path": "maps/districts/wv-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2754%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:28:56.898960Z",
+      "sourceSha256": "36866c203c4dd4f9c2c0f0f7fb5961a73e9f08134623ce5b46a0d8f658b1938e",
+      "sourceBytes": 2921902,
+      "sourceFeatures": 17,
+      "outputSha256": "a9d1824e9881ba30c9927b04b94775f7ff1cadd143dce23fdbf5a6b0e2aed3f1",
+      "bytes": 180199,
+      "coverage": {
+        "districtCount": 17,
+        "ordinaryDistrictCount": 17,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 17,
+        "matchedGeometryCount": 17,
+        "forecastCompatibleCount": 17,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 47.5685,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 17,
+        "sourceRepairedPolygonParts": 17,
+        "displayPolygonParts": 17,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "WV",
+      "chamberId": "WV-lower",
+      "path": "maps/districts/wv-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2754%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:30:13.188591Z",
+      "sourceSha256": "95ab12f5191812d3b5ca2423de2c5d7cdf27667c09d18f5d4f591931642e82c6",
+      "sourceBytes": 7422235,
+      "sourceFeatures": 100,
+      "outputSha256": "e34cc36532466339c780c2f4e7ca6625c34786739aeda03fc70ffe1096721484",
+      "bytes": 430513,
+      "coverage": {
+        "districtCount": 100,
+        "ordinaryDistrictCount": 100,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 100,
+        "matchedGeometryCount": 100,
+        "forecastCompatibleCount": 100,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 47.5685,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 102,
+        "sourceRepairedPolygonParts": 102,
+        "displayPolygonParts": 102,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "WY",
+      "chamberId": "WY-upper",
+      "path": "maps/districts/wy-upper.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query?f=geojson&where=STATE%3D%2756%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDU&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 1,
+      "retrievedAt": "2026-10-24T01:24:25.482688Z",
+      "sourceSha256": "46c3f611bf3d6553e3e5782e8869df1791af3e0301f4d4eb1d613797492aaeb1",
+      "sourceBytes": 2188543,
+      "sourceFeatures": 31,
+      "outputSha256": "674771148f7c01ee308c3f610f06a901be39aa67e050da3ac37a6a9c1cacfabb",
+      "bytes": 123730,
+      "coverage": {
+        "districtCount": 31,
+        "ordinaryDistrictCount": 31,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 16,
+        "matchedGeometryCount": 16,
+        "forecastCompatibleCount": 16,
+        "unmatchedGeometryCount": 15,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 32,
+        "sourceRepairedPolygonParts": 32,
+        "displayPolygonParts": 32,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    },
+    {
+      "stateCode": "WY",
+      "chamberId": "WY-lower",
+      "path": "maps/districts/wy-lower.json",
+      "sourceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query?f=geojson&where=STATE%3D%2756%27&outFields=STATE%2CGEOID%2CBASENAME%2CNAME%2CLSY%2CLDTYP%2CSLDL&returnGeometry=true&outSR=4326&geometryPrecision=5&orderByFields=GEOID",
+      "sourceLayerId": 2,
+      "retrievedAt": "2026-10-24T01:24:35.959002Z",
+      "sourceSha256": "07836c161527010a9198e0bafdfdd5e79618e5731499de594222b7aa10b15ee2",
+      "sourceBytes": 2996985,
+      "sourceFeatures": 62,
+      "outputSha256": "0dd47c6de9b159066052708dc9c59be96b7bea19e51dcb6c753c13cb1033f355",
+      "bytes": 178514,
+      "coverage": {
+        "districtCount": 62,
+        "ordinaryDistrictCount": 62,
+        "floterialDistrictCount": 0,
+        "modelRecordCount": 62,
+        "matchedGeometryCount": 62,
+        "forecastCompatibleCount": 62,
+        "unmatchedGeometryCount": 0,
+        "ambiguousGeometryCount": 0,
+        "boundaryChangedGeometryCount": 0,
+        "unmatchedModelIds": [],
+        "excludedUndefinedGeoids": []
+      },
+      "displayGeneralization": {
+        "algorithm": "topology-aware Douglas-Peucker",
+        "intervalMeters": 50,
+        "coordinatePrecisionSvgUnits": 0.01,
+        "multipartPreservation": "exploded before simplification, keep-shapes, dissolved by original GEOID"
+      },
+      "geometryValidation": {
+        "sourceInvalidGeoidsRepaired": [
+          "56034"
+        ],
+        "displayInvalidGeoidsRepaired": [],
+        "sourcePolygonParts": 64,
+        "sourceRepairedPolygonParts": 64,
+        "displayPolygonParts": 64,
+        "unrepresentedSourceComponents": [],
+        "allDisplayGeometriesValid": true
+      }
+    }
+  ],
+  "modelIdentityEdition": "2026-10-23T13-26-34-318Z-d84fe0c53c24d95f-20260913",
+  "modelIdentityInputVersion": "d84fe0c53c24d95f"
+}
