@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-25T11:14:06.747Z",
+  "baselineId": "2026-10-24T10-31-18-054Z-609d9ee1aebe3c83-20260913",
+  "inputVersion": "609d9ee1aebe3c83",
+  "status": "unchanged",
+  "sources": [
+    {
+      "id": "silver",
+      "name": "Silver Bulletin · national polling",
+      "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "status": "unchanged",
+      "observations": 0,
+      "message": "No newer changed input; existing records retained."
+    },
+    {
+      "id": "ncsl",
+      "name": "NCSL · chamber composition",
+      "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+      "status": "unavailable",
+      "observations": 0,
+      "message": "Source returned HTTP 403; existing data was kept."
+    },
+    {
+      "id": "maine",
+      "name": "Maine House · official roster",
+      "url": "https://www.legislature.maine.gov/house/house/",
+      "status": "unchanged",
+      "observations": 0,
+      "message": "No newer changed input; existing records retained."
+    }
+  ],
+  "acceptedObservations": [],
+  "compositionChanges": [],
+  "requiresAuditReview": false,
+  "inputsFile": null,
+  "message": "scheduled recomputation; no new usable source inputs",
+  "publicationKind": "scheduled",
+  "publishedSnapshotId": "2026-10-25T11-14-53-928Z-609d9ee1aebe3c83-20260913",
+  "publishedAt": "2026-10-25T11:14:53.928Z",
+  "priorSnapshotId": "2026-10-24T10-31-18-054Z-609d9ee1aebe3c83-20260913",
+  "simulations": 50000,
+  "sourceDates": [
+    {
+      "id": "generic-ballot",
+      "publishedAt": "2026-09-11T00:00:00Z",
+      "observedAt": "2026-09-11T00:00:00Z",
+      "retrievedAt": "2026-09-13T03:58:40.056Z"
+    },
+    {
+      "id": "auto-silver-fcae46fb470ab4a5cd9c4e57",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "observedAt": "2026-09-24T00:00:00.000Z",
+      "retrievedAt": "2026-09-25T12:00:24.924Z"
+    },
+    {
+      "id": "national-silver-2026-10-02",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "observedAt": "2026-10-02T00:00:00Z",
+      "retrievedAt": "2026-10-03T22:14:49.485Z"
+    },
+    {
+      "id": "auto-silver-967f475d415e079960f5a782",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "observedAt": "2026-10-19T00:00:00.000Z",
+      "retrievedAt": "2026-10-20T11:19:30.779Z"
+    },
+    {
+      "id": "auto-silver-1da2f969feb2eadcad784990",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "observedAt": "2026-10-22T00:00:00.000Z",
+      "retrievedAt": "2026-10-23T13:25:37.146Z"
+    },
+    {
+      "id": "auto-silver-383d93e9c76890bec2d77c97",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "observedAt": "2026-10-23T00:00:00.000Z",
+      "retrievedAt": "2026-10-24T10:30:57.237Z"
+    }
+  ],
+  "review": "No new usable observations accepted. Retained identical verified inputs, inputVersion, model assumptions and seed. Silver Bulletin and Maine unchanged; NCSL returned HTTP 403 and its prior composition is retained. This date is an actual model run, not a new source observation."
+}
