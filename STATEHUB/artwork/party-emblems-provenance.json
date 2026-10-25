@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "preparedAt": "2026-10-25",
+  "runtime": "Inline monochrome SVG paths; no external artwork requests or tracing dependencies at runtime.",
+  "emblems": [
+    {
+      "id": "democratic",
+      "name": "Established Democratic donkey emblem",
+      "author": "Steven Braeger",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:DemocraticLogo.svg",
+      "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/0/02/DemocraticLogo.svg",
+      "sourceSha256": "c606a270314c36c34892b4288a163ac1292312a0b15fc7a7bd76b96f9c0c5e54",
+      "license": "CC0-1.0, as recorded by the source",
+      "adaptation": "Original outline and four star cutouts retained; coordinates rounded to two decimals and fills made monochrome."
+    },
+    {
+      "id": "republican",
+      "name": "Established Republican elephant emblem",
+      "author": "Republican Party (United States)",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Republicanlogo.svg",
+      "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Republicanlogo.svg",
+      "sourceSha256": "8bc701e2cd40aed4312738ffb0748d8f34bfc9824189ff08c4b5639bc8280f9e",
+      "license": "Source lists public domain in the United States (no-notice publication).",
+      "adaptation": "Original outline and three star cutouts retained; transforms flattened, coordinates rounded to two decimals, and fills made monochrome."
+    },
+    {
+      "id": "reference-faceoff",
+      "name": "Supplied split-control reference",
+      "source": "User-provided reference received 2026-10-25",
+      "sourceSha256": "ef5d79288636dcf8f02f73b21b0117482f34a31f1356c30af35ee1bca2651e49",
+      "adaptation": "Vector-traced the supplied head-and-shoulders composition: Republican elephant on the left and Democratic donkey on the right. Removed raster shadows and softened the circular frame. No source bitmap is shipped."
+    }
+  ]
+}
