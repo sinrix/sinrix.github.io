@@ -1,0 +1,222 @@
+{
+  "checkedAt": "2026-10-27T08:12:48.728Z",
+  "baselineId": "2026-10-26T07-55-13-249Z-609d9ee1aebe3c83-20260913",
+  "inputVersion": "1eecff8c3eeb6421",
+  "status": "updated",
+  "sources": [
+    {
+      "id": "silver",
+      "name": "Silver Bulletin · national polling",
+      "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "status": "updated",
+      "observations": 1,
+      "message": "1 verified input found."
+    },
+    {
+      "id": "ncsl",
+      "name": "NCSL · chamber composition",
+      "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+      "status": "unavailable",
+      "observations": 0,
+      "message": "Source returned HTTP 403; existing data was kept."
+    },
+    {
+      "id": "maine",
+      "name": "Maine House · official roster",
+      "url": "https://www.legislature.maine.gov/house/house/",
+      "status": "unchanged",
+      "observations": 0,
+      "message": "No newer changed input; existing records retained."
+    }
+  ],
+  "acceptedObservations": [
+    {
+      "id": "auto-silver-1a105b4f1eb9d78c91bcbc3c",
+      "sourceName": "Silver Bulletin · national polling",
+      "sourceUrl": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "sourceType": "OBSERVED",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "observedAt": "2026-10-26T00:00:00.000Z",
+      "retrievedAt": "2026-10-27T08:12:48.728Z",
+      "value": 9,
+      "notes": "Automatically imported from the dated public update. Uses the unadjusted D−R generic-ballot margin; the separate likely-voter-adjusted series is excluded. The observation date is the publisher update date, not a newly inferred poll date.",
+      "reliability": 0.9,
+      "manualOrAutomatic": "automatic",
+      "kind": "national-environment",
+      "independenceGroup": "silver-bulletin-generic-ballot"
+    }
+  ],
+  "compositionChanges": [],
+  "requiresAuditReview": false,
+  "inputsFile": "work/source-checks/2026-10-27T08-12-48.728Z/candidate-inputs.json",
+  "message": "New validated candidate inputs are staged for publication review.",
+  "publicationKind": "data",
+  "publishedSnapshotId": "2026-10-27T08-13-07-161Z-1eecff8c3eeb6421-20260913",
+  "publishedAt": "2026-10-27T08:13:07.161Z",
+  "priorSnapshotId": "2026-10-26T07-55-13-249Z-609d9ee1aebe3c83-20260913",
+  "simulations": 50000,
+  "reviewedAt": "2026-10-27T08:17:04.583Z",
+  "review": "Accepted only the October 26 public unadjusted D+9.0 polling observation, independently verified against the publisher. Original source dates preserved. Composition, candidates, district baselines, coalition rules, numerical assumptions and seed retained. NCSL HTTP 403: prior input retained; Maine unchanged.",
+  "materialChanges": [
+    {
+      "chamberId": "GA-lower",
+      "before": {
+        "D": 0.45174,
+        "R": 0.46672,
+        "Other": 0.01414,
+        "Tie": 0.0674
+      },
+      "after": {
+        "D": 0.44628,
+        "R": 0.47136,
+        "Other": 0.01412,
+        "Tie": 0.06824
+      },
+      "deltaD": -0.5459999999999965
+    },
+    {
+      "chamberId": "MI-lower",
+      "before": {
+        "D": 0.6337,
+        "R": 0.28696,
+        "Other": 0.04064,
+        "Tie": 0.0387
+      },
+      "after": {
+        "D": 0.6286,
+        "R": 0.29142,
+        "Other": 0.0409,
+        "Tie": 0.03908
+      },
+      "deltaD": -0.5099999999999993
+    },
+    {
+      "chamberId": "NC-lower",
+      "before": {
+        "D": 0.4345,
+        "R": 0.4729,
+        "Other": 0.034,
+        "Tie": 0.0586
+      },
+      "after": {
+        "D": 0.4295,
+        "R": 0.47798,
+        "Other": 0.03396,
+        "Tie": 0.05856
+      },
+      "deltaD": -0.5000000000000004
+    },
+    {
+      "chamberId": "WI-lower",
+      "before": {
+        "D": 0.67456,
+        "R": 0.29878,
+        "Other": 0.02666,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0.6698,
+        "R": 0.30328,
+        "Other": 0.02692,
+        "Tie": 0
+      },
+      "deltaD": -0.47600000000000975
+    },
+    {
+      "chamberId": "AZ-lower",
+      "before": {
+        "D": 0.5946,
+        "R": 0.28636,
+        "Other": 0.02262,
+        "Tie": 0.09642
+      },
+      "after": {
+        "D": 0.59032,
+        "R": 0.29028,
+        "Other": 0.023,
+        "Tie": 0.0964
+      },
+      "deltaD": -0.42800000000000615
+    },
+    {
+      "chamberId": "AZ-upper",
+      "before": {
+        "D": 0.60764,
+        "R": 0.22296,
+        "Other": 0.01676,
+        "Tie": 0.15264
+      },
+      "after": {
+        "D": 0.6034,
+        "R": 0.22632,
+        "Other": 0.01688,
+        "Tie": 0.1534
+      },
+      "deltaD": -0.42399999999999105
+    },
+    {
+      "chamberId": "AK-lower",
+      "before": {
+        "D": 0.69016,
+        "R": 0.30984,
+        "Other": 0,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0.68642,
+        "R": 0.31358,
+        "Other": 0,
+        "Tie": 0
+      },
+      "deltaD": -0.37399999999999656
+    },
+    {
+      "chamberId": "PA-lower",
+      "before": {
+        "D": 0.79652,
+        "R": 0.1956,
+        "Other": 0.00788,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0.79288,
+        "R": 0.19914,
+        "Other": 0.00798,
+        "Tie": 0
+      },
+      "deltaD": -0.36399999999999766
+    },
+    {
+      "chamberId": "NH-upper",
+      "before": {
+        "D": 0.779,
+        "R": 0.13048,
+        "Other": 0,
+        "Tie": 0.09052
+      },
+      "after": {
+        "D": 0.77556,
+        "R": 0.13268,
+        "Other": 0,
+        "Tie": 0.09176
+      },
+      "deltaD": -0.34399999999999986
+    },
+    {
+      "chamberId": "NC-upper",
+      "before": {
+        "D": 0.20914,
+        "R": 0.6521,
+        "Other": 0.03476,
+        "Tie": 0.104
+      },
+      "after": {
+        "D": 0.20596,
+        "R": 0.6566,
+        "Other": 0.03452,
+        "Tie": 0.10292
+      },
+      "deltaD": -0.31799999999999884
+    }
+  ]
+}
