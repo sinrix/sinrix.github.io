@@ -1,0 +1,11 @@
+{
+  "receivedAt": "2026-10-29",
+  "sourceName": "StateLegislatures_icon.jpg",
+  "sourceSha256": "909235168bab22f3164f41d725f09c9354f220775eaded83d9bc6fc3378a51eb",
+  "originalDimensions": {
+    "width": 661,
+    "height": 620
+  },
+  "conversion": "JPEG decoded to lossless PNG with identical pixels. Original artwork, colors, crop and white background retained. Display icons are proportional derivatives.",
+  "pixelSha256": "fea10f8d4479025650346f73407e43da0ecaddcaf4926f9487d078c5256e661c"
+}
