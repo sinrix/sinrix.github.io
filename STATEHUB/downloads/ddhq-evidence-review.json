@@ -1,0 +1,57 @@
+{
+  "reviewedAt": "2026-10-30T09:27:00.000Z",
+  "baselineId": "2026-10-30T08-02-44-716Z-062464d261e2fbf4-20260913",
+  "status": "Reviewed; no forecast inputs imported",
+  "acceptedRecords": 0,
+  "forecastEffect": "The published edition, input version, probabilities and history are unchanged.",
+  "coverage": {
+    "states": 50,
+    "chambers": 99,
+    "existingDistrictUnits": 5730,
+    "verifiedDDHQDistrictRecords": 0,
+    "verifiedDDHQStateLegislativePolls": 0,
+    "note": "Zero verified records describes this review, not a claim that DDHQ has no such data. Existing observed labels do not establish independent primary-source verification."
+  },
+  "categories": [
+    {
+      "id": "historical",
+      "title": "Historical district results",
+      "status": "Potentially useful; complete authorized export not verified",
+      "finding": "DDHQ advertises state legislative history. This review did not obtain a complete district dataset or certify its boundary compatibility with STATEHUB.",
+      "nextStep": "Use an authorized export or original official returns. Reconcile every contested seat, candidates, parties, totals, election date and boundary vintage before the existing reviewed district import. Historical legislative outcomes cannot directly replace allocated presidential baselines. Fit and test any new conversion using earlier election cycles before promotion."
+    },
+    {
+      "id": "polling",
+      "title": "Individual polling",
+      "status": "Discovery source; no relevant legislative poll verified",
+      "finding": "The public polling directory reviewed lists federal and statewide contests. It did not establish usable state legislative polling coverage. National averages may share underlying polls with Silver Bulletin.",
+      "nextStep": "Verify original pollster or sponsor releases, field and publication dates, population, sample size, wording, district and candidate match. Deduplicate underlying surveys across aggregators. Current numeric poll imports are national-only; race polling needs a separately reviewed model integration."
+    },
+    {
+      "id": "early-voting",
+      "title": "Early and absentee voting",
+      "status": "Context only; no numerical feed connected",
+      "finding": "No early-vote figures were imported or used to adjust probabilities. STATEHUB has no validated turnout-to-margin adjustment for these figures.",
+      "nextStep": "If authorized figures become available, keep dated aggregate turnout context separate from forecast inputs. Preserve coverage and reporting limitations; party registration is not candidate choice. No individual voter records are needed."
+    },
+    {
+      "id": "forecasts-results",
+      "title": "Forecasts and election results",
+      "status": "Comparison and evaluation only",
+      "finding": "DDHQ probabilities and markets are not adopted as STATEHUB probabilities. Election-night returns must remain separate from pre-election forecasts.",
+      "nextStep": "Keep the November 3 cutoff and immutable freezes. Reconcile eventual certified official outcomes through the prospective evaluation protocol."
+    }
+  ],
+  "access": {
+    "automatedCollection": "Not connected",
+    "reason": "Published site terms restrict collection and scraping. No authorized export, API access or permission covering STATEHUB use and public evidence distribution was verified. A personal subscription is not assumed to grant those rights.",
+    "requiredForDirectImport": "An authorized data delivery with terms covering intended model use and public evidence distribution, or independently obtained original official records. Do not bypass login, export limits or access restrictions."
+  },
+  "sources": [
+    {"title": "DDHQ features and export access", "url": "https://votes.decisiondeskhq.com/pricing", "publishedAt": null, "checkedAt": "2026-10-30T09:27:00.000Z"},
+    {"title": "Public polling directory", "url": "https://votes.decisiondeskhq.com/polls", "publishedAt": null, "checkedAt": "2026-10-30T09:27:00.000Z"},
+    {"title": "Historical results browser", "url": "https://votes.decisiondeskhq.com/vault", "publishedAt": null, "checkedAt": "2026-10-30T09:27:00.000Z"},
+    {"title": "Polling methodology", "url": "https://votes-docs.decisiondeskhq.com/polling-methodology.md", "publishedAt": null, "checkedAt": "2026-10-30T09:27:00.000Z"},
+    {"title": "Terms of service", "url": "https://votes-docs.decisiondeskhq.com/terms-of-service", "publishedAt": "2026-08-29", "checkedAt": "2026-10-30T09:27:00.000Z"}
+  ]
+}
