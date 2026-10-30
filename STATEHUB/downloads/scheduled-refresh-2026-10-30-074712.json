@@ -1,0 +1,222 @@
+{
+  "checkedAt": "2026-10-30T07:47:12.938Z",
+  "baselineId": "2026-10-29T10-37-04-023Z-5e2017fd0cf79730-20260913",
+  "inputVersion": "062464d261e2fbf4",
+  "status": "updated",
+  "sources": [
+    {
+      "id": "silver",
+      "name": "Silver Bulletin · national polling",
+      "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "status": "updated",
+      "observations": 1,
+      "message": "1 verified input found."
+    },
+    {
+      "id": "ncsl",
+      "name": "NCSL · chamber composition",
+      "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+      "status": "unavailable",
+      "observations": 0,
+      "message": "Source returned HTTP 403; existing data was kept."
+    },
+    {
+      "id": "maine",
+      "name": "Maine House · official roster",
+      "url": "https://www.legislature.maine.gov/house/house/",
+      "status": "unchanged",
+      "observations": 0,
+      "message": "No newer changed input; existing records retained."
+    }
+  ],
+  "acceptedObservations": [
+    {
+      "id": "auto-silver-5099347dd0e9e678ecb54baa",
+      "sourceName": "Silver Bulletin · national polling",
+      "sourceUrl": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "sourceType": "OBSERVED",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "observedAt": "2026-10-29T00:00:00.000Z",
+      "retrievedAt": "2026-10-30T07:47:12.938Z",
+      "value": 8.7,
+      "notes": "Automatically imported from the dated public update. Uses the unadjusted D−R generic-ballot margin; the separate likely-voter-adjusted series is excluded. The observation date is the publisher update date, not a newly inferred poll date.",
+      "reliability": 0.9,
+      "manualOrAutomatic": "automatic",
+      "kind": "national-environment",
+      "independenceGroup": "silver-bulletin-generic-ballot"
+    }
+  ],
+  "compositionChanges": [],
+  "requiresAuditReview": false,
+  "inputsFile": "work/source-checks/2026-10-30T07-47-12.938Z/candidate-inputs.json",
+  "message": "New validated candidate inputs are staged for publication review.",
+  "publicationKind": "data",
+  "publishedSnapshotId": "2026-10-30T08-02-44-716Z-062464d261e2fbf4-20260913",
+  "publishedAt": "2026-10-30T08:02:44.716Z",
+  "priorSnapshotId": "2026-10-29T10-37-04-023Z-5e2017fd0cf79730-20260913",
+  "simulations": 50000,
+  "reviewedAt": "2026-10-30T08:07:24.756Z",
+  "review": "Accepted the explicitly dated Updated October 29 public page at unchanged unadjusted D+8.7. The value and explanatory paragraph remain unchanged from October 28, and the paragraph signature still says 10/28/26; this page update is not claimed as a new poll or political movement. No parser or numerical-model changes. Original source dates preserved. Composition, candidates, district baselines, coalition rules, numerical assumptions and seed retained. NCSL HTTP 403: prior input retained; Maine unchanged.",
+  "materialChanges": [
+    {
+      "chamberId": "AL-upper",
+      "before": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "deltaD": 0
+    },
+    {
+      "chamberId": "AL-lower",
+      "before": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "deltaD": 0
+    },
+    {
+      "chamberId": "AK-upper",
+      "before": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "after": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "deltaD": 0
+    },
+    {
+      "chamberId": "AK-lower",
+      "before": {
+        "D": 0.67588,
+        "R": 0.32412,
+        "Other": 0,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0.67588,
+        "R": 0.32412,
+        "Other": 0,
+        "Tie": 0
+      },
+      "deltaD": 0
+    },
+    {
+      "chamberId": "AZ-upper",
+      "before": {
+        "D": 0.5908,
+        "R": 0.23556,
+        "Other": 0.01706,
+        "Tie": 0.15658
+      },
+      "after": {
+        "D": 0.5908,
+        "R": 0.23556,
+        "Other": 0.01706,
+        "Tie": 0.15658
+      },
+      "deltaD": 0
+    },
+    {
+      "chamberId": "AZ-lower",
+      "before": {
+        "D": 0.5784,
+        "R": 0.30194,
+        "Other": 0.02312,
+        "Tie": 0.09654
+      },
+      "after": {
+        "D": 0.5784,
+        "R": 0.30194,
+        "Other": 0.02312,
+        "Tie": 0.09654
+      },
+      "deltaD": 0
+    },
+    {
+      "chamberId": "AR-upper",
+      "before": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "deltaD": 0
+    },
+    {
+      "chamberId": "AR-lower",
+      "before": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0,
+        "R": 1,
+        "Other": 0,
+        "Tie": 0
+      },
+      "deltaD": 0
+    },
+    {
+      "chamberId": "CA-upper",
+      "before": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "after": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "deltaD": 0
+    },
+    {
+      "chamberId": "CA-lower",
+      "before": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "after": {
+        "D": 1,
+        "R": 0,
+        "Other": 0,
+        "Tie": 0
+      },
+      "deltaD": 0
+    }
+  ]
+}

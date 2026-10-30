@@ -1,11 +1,11 @@
 {
   "description": "2026 U.S. state legislative geographic district maps; source-backed display geometry and audited forecast identity joins.",
-  "generatedAt": "2026-10-29T10:43:27.725499Z",
+  "generatedAt": "2026-10-30T08:09:00.403625Z",
   "electionCycle": 2026,
   "vintage": "2026-01-01",
   "planSourceUrl": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/state-legislative-district.html",
-  "modelIdentityEdition": "2026-10-29T10-37-04-023Z-5e2017fd0cf79730-20260913",
-  "modelIdentityInputVersion": "5e2017fd0cf79730",
+  "modelIdentityEdition": "2026-10-30T08-02-44-716Z-062464d261e2fbf4-20260913",
+  "modelIdentityInputVersion": "062464d261e2fbf4",
   "sourceLayerUrls": [
     "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1?f=pjson",
     "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2?f=pjson"
