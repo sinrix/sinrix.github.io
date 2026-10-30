@@ -1,0 +1,222 @@
+{
+  "checkedAt": "2026-10-30T22:07:02.601Z",
+  "baselineId": "2026-10-30T08-02-44-716Z-062464d261e2fbf4-20260913",
+  "inputVersion": "db8e90e8e70c8d5e",
+  "status": "updated",
+  "sources": [
+    {
+      "id": "silver",
+      "name": "Silver Bulletin · national polling",
+      "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "status": "updated",
+      "observations": 1,
+      "message": "1 verified input found."
+    },
+    {
+      "id": "ncsl",
+      "name": "NCSL · chamber composition",
+      "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+      "status": "unavailable",
+      "observations": 0,
+      "message": "Source returned HTTP 403; existing data was kept."
+    },
+    {
+      "id": "maine",
+      "name": "Maine House · official roster",
+      "url": "https://www.legislature.maine.gov/house/house/",
+      "status": "unchanged",
+      "observations": 0,
+      "message": "No newer changed input; existing records retained."
+    }
+  ],
+  "acceptedObservations": [
+    {
+      "id": "auto-silver-fab27887694cc6156141d0c9",
+      "sourceName": "Silver Bulletin · national polling",
+      "sourceUrl": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+      "sourceType": "OBSERVED",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "observedAt": "2026-10-30T00:00:00.000Z",
+      "retrievedAt": "2026-10-30T22:07:02.601Z",
+      "value": 8.9,
+      "notes": "Automatically imported from the dated public update. Uses the unadjusted D−R generic-ballot margin; the separate likely-voter-adjusted series is excluded. The observation date is the publisher update date, not a newly inferred poll date.",
+      "reliability": 0.9,
+      "manualOrAutomatic": "automatic",
+      "kind": "national-environment",
+      "independenceGroup": "silver-bulletin-generic-ballot"
+    }
+  ],
+  "compositionChanges": [],
+  "requiresAuditReview": false,
+  "inputsFile": "work/source-checks/2026-10-30T22-07-02.601Z/candidate-inputs.json",
+  "message": "New validated candidate inputs are staged for publication review.",
+  "publicationKind": "data",
+  "publishedSnapshotId": "2026-10-30T22-07-18-695Z-db8e90e8e70c8d5e-20260913",
+  "publishedAt": "2026-10-30T22:07:18.695Z",
+  "priorSnapshotId": "2026-10-30T08-02-44-716Z-062464d261e2fbf4-20260913",
+  "simulations": 50000,
+  "reviewedAt": "2026-10-30T22:11:53.729Z",
+  "review": "Accepted only the October 30 publisher update at unadjusted D+8.9, independently verified against the public page. The adjusted D+9.1 series and prior D+9.2 high are excluded. The paragraph signature remains 10/28/26; the explicit Updated October 30 date is the publisher update date, not an inferred poll field date. No parser or numerical-model changes. DDHQ assessment remains dated October 30 with zero accepted records; no new authorized delivery was supplied. Original source dates preserved. Composition, candidates, district baselines, coalition rules, numerical assumptions and seed retained. NCSL HTTP 403: prior input retained; Maine unchanged.",
+  "materialChanges": [
+    {
+      "chamberId": "GA-lower",
+      "before": {
+        "D": 0.43196,
+        "R": 0.48596,
+        "Other": 0.01404,
+        "Tie": 0.06804
+      },
+      "after": {
+        "D": 0.4419,
+        "R": 0.47608,
+        "Other": 0.01412,
+        "Tie": 0.0679
+      },
+      "deltaD": 0.9940000000000004
+    },
+    {
+      "chamberId": "MI-lower",
+      "before": {
+        "D": 0.61446,
+        "R": 0.30458,
+        "Other": 0.0414,
+        "Tie": 0.03956
+      },
+      "after": {
+        "D": 0.62352,
+        "R": 0.2958,
+        "Other": 0.04122,
+        "Tie": 0.03946
+      },
+      "deltaD": 0.9059999999999957
+    },
+    {
+      "chamberId": "NC-lower",
+      "before": {
+        "D": 0.41606,
+        "R": 0.49316,
+        "Other": 0.03338,
+        "Tie": 0.0574
+      },
+      "after": {
+        "D": 0.42498,
+        "R": 0.48332,
+        "Other": 0.0341,
+        "Tie": 0.0576
+      },
+      "deltaD": 0.8920000000000039
+    },
+    {
+      "chamberId": "WI-lower",
+      "before": {
+        "D": 0.65662,
+        "R": 0.31642,
+        "Other": 0.02696,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0.6655,
+        "R": 0.30756,
+        "Other": 0.02694,
+        "Tie": 0
+      },
+      "deltaD": 0.8879999999999999
+    },
+    {
+      "chamberId": "AZ-lower",
+      "before": {
+        "D": 0.5784,
+        "R": 0.30194,
+        "Other": 0.02312,
+        "Tie": 0.09654
+      },
+      "after": {
+        "D": 0.5864,
+        "R": 0.29424,
+        "Other": 0.02288,
+        "Tie": 0.09648
+      },
+      "deltaD": 0.8000000000000007
+    },
+    {
+      "chamberId": "AZ-upper",
+      "before": {
+        "D": 0.5908,
+        "R": 0.23556,
+        "Other": 0.01706,
+        "Tie": 0.15658
+      },
+      "after": {
+        "D": 0.5987,
+        "R": 0.22914,
+        "Other": 0.01696,
+        "Tie": 0.1552
+      },
+      "deltaD": 0.7900000000000018
+    },
+    {
+      "chamberId": "PA-lower",
+      "before": {
+        "D": 0.7819,
+        "R": 0.20998,
+        "Other": 0.00812,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0.78938,
+        "R": 0.2027,
+        "Other": 0.00792,
+        "Tie": 0
+      },
+      "deltaD": 0.7479999999999931
+    },
+    {
+      "chamberId": "AK-lower",
+      "before": {
+        "D": 0.67588,
+        "R": 0.32412,
+        "Other": 0,
+        "Tie": 0
+      },
+      "after": {
+        "D": 0.68278,
+        "R": 0.31722,
+        "Other": 0,
+        "Tie": 0
+      },
+      "deltaD": 0.6900000000000017
+    },
+    {
+      "chamberId": "NH-upper",
+      "before": {
+        "D": 0.76524,
+        "R": 0.1397,
+        "Other": 0,
+        "Tie": 0.09506
+      },
+      "after": {
+        "D": 0.77206,
+        "R": 0.13476,
+        "Other": 0,
+        "Tie": 0.09318
+      },
+      "deltaD": 0.6819999999999937
+    },
+    {
+      "chamberId": "MI-upper",
+      "before": {
+        "D": 0.75188,
+        "R": 0.112,
+        "Other": 0.0692,
+        "Tie": 0.06692
+      },
+      "after": {
+        "D": 0.75842,
+        "R": 0.10804,
+        "Other": 0.06794,
+        "Tie": 0.0656
+      },
+      "deltaD": 0.653999999999999
+    }
+  ]
+}
