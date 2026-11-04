@@ -1,0 +1,1 @@
+function e(e){return e.type===`unicameral`?`${e.state} Legislature`:`${e.state} / ${e.name}`}function t(e){return e.type===`unicameral`?`${e.state} Legislature`:`${e.state} ${e.name}`}function n(e){return/^[A-Z]{2}$/i.test(e)?`/flags/${e.toLowerCase()}.webp`:null}export{t as n,n as r,e as t};

@@ -1,0 +1,1 @@
+import{u as e}from"./index-CxVjshLm.js";import{t}from"./summary-C6hNIAXs.js";import{n}from"./results-dashboard-Cfv1k95t.js";var r=e();async function i(e){return(0,r.jsx)(n,{chambers:e.data.chambers,summary:t})}export{i as renderPage};
